@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPAECE Analytics Pro V11.0</title>
+    <title>SPAECE Analytics Pro V11.5</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -25,58 +25,52 @@
 
         body { background-color: #f1f5f9; font-family: 'Inter', sans-serif; }
 
-        /* Tela de Abertura */
+        /* TELA DE ABERTURA BRANCA */
         #login-overlay {
             position: fixed; inset: 0; z-index: 9999;
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            background: #ffffff;
             display: flex; align-items: center; justify-content: center;
         }
         .login-card {
-            background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.1); padding: 50px;
+            background: #ffffff; border: 1px solid #e2e8f0; padding: 50px;
             border-radius: 30px; width: 100%; max-width: 450px; text-align: center;
-            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5); color: white;
+            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); color: #1e293b;
         }
 
-        /* Sidebar */
         #sidebar { width: 300px; height: 100vh; position: fixed; background: var(--primary); color: white; padding: 30px; z-index: 100; }
         #content { margin-left: 300px; padding: 40px; min-height: 100vh; }
 
         .glass-card { background: white; border-radius: 20px; padding: 25px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05); margin-bottom: 30px; position: relative; border: 1px solid #e2e8f0; }
-        
-        /* Estilização das Abas */
-        .nav-pills .nav-link { color: #64748b; font-weight: 700; border-radius: 12px; padding: 12px 20px; transition: 0.3s; }
-        .nav-pills .nav-link.active { background: var(--accent); color: white; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3); }
+        .nav-pills .nav-link { color: #64748b; font-weight: 700; border-radius: 12px; padding: 12px 20px; }
+        .nav-pills .nav-link.active { background: var(--accent); color: white; }
 
-        /* Histórico Badges */
         .status-badge { padding: 12px 25px; border-radius: 50px; font-weight: 800; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px; }
         .up { background: #dcfce7; color: #15803d; }
         .down { background: #fee2e2; color: #b91c1c; }
         .equal { background: #f1f5f9; color: #475569; }
 
-        .btn-png { position: absolute; top: 15px; right: 15px; font-size: 10px; font-weight: bold; }
-        footer { margin-top: 50px; text-align: center; color: #94a3b8; font-size: 0.8rem; padding-bottom: 20px; }
+        footer { margin-top: 50px; text-align: center; color: #94a3b8; font-size: 0.8rem; }
     </style>
 </head>
 <body>
 
 <div id="login-overlay">
-    <div class="login-card">
+    <div class="login-card animate__animated animate__fadeIn">
         <div class="mb-4">
-            <i class="fas fa-chart-pie fa-4x text-accent mb-3"></i>
-            <h2 class="fw-800">SPAECE <span style="color:var(--accent)">PRO</span></h2>
-            <p>SME Maracanaú | Gestão de Resultados</p>
+            <i class="fas fa-chart-line fa-4x text-accent mb-3"></i>
+            <h2 class="fw-800 text-dark">SPAECE <span style="color:var(--accent)">PRO</span></h2>
+            <p class="text-muted">Acesso ao Painel de Monitoramento</p>
         </div>
-        <input type="text" id="inepInput" class="form-control form-control-lg bg-dark text-white border-0 text-center mb-4" placeholder="CÓDIGO INEP">
-        <button class="btn btn-primary btn-lg w-100 fw-bold rounded-4" onclick="entrar()">ENTRAR NO SISTEMA</button>
+        <input type="text" id="inepInput" class="form-control form-control-lg bg-light border-1 text-center mb-4" placeholder="CÓDIGO INEP">
+        <button class="btn btn-primary btn-lg w-100 fw-bold rounded-4 shadow" onclick="entrar()">ENTRAR</button>
     </div>
 </div>
 
 <div id="app" style="display:none;">
     <aside id="sidebar">
         <div class="mb-5 text-center">
-            <h5 class="fw-bold mb-0">ANALYTICS V11.0</h5>
-            <small class="text-white-50">Série Histórica</small>
+            <h5 class="fw-bold mb-0">ANALYTICS V11.5</h5>
+            <small class="text-white-50">SME Maracanaú</small>
         </div>
         <div class="mb-4">
             <label class="small fw-bold text-white-50">ETAPA</label>
@@ -92,48 +86,32 @@
     </aside>
 
     <main id="content">
-        <header class="mb-5">
+        <header class="mb-4">
             <h2 id="hEscola" class="fw-800 text-primary mb-1">---</h2>
             <span id="hInep" class="badge bg-white text-dark shadow-sm p-2">INEP: ---</span>
         </header>
 
         <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
-            <li class="nav-item">
-                <button class="nav-link active" id="btn-prof" data-bs-toggle="pill" data-bs-target="#tab-prof" type="button">PROFICIÊNCIA</button>
-            </li>
-            <li class="nav-item">
-                <button class="nav-link" id="btn-niveis" data-bs-toggle="pill" data-bs-target="#tab-niveis" type="button">NÍVEIS (100%)</button>
-            </li>
-            <li class="nav-item">
-                <button class="nav-link" id="btn-hist" data-bs-toggle="pill" data-bs-target="#tab-hist" type="button">EVOLUÇÃO HISTÓRICA</button>
-            </li>
+            <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-prof">PROFICIÊNCIA</button></li>
+            <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-ide">INDICADOR IDE</button></li>
+            <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-niveis">NÍVEIS (100%)</button></li>
+            <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-hist">EVOLUÇÃO HISTÓRICA</button></li>
         </ul>
 
         <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="tab-prof" role="tabpanel">
-                <div class="glass-card" id="card-principal">
-                    <button class="btn btn-light btn-sm btn-png" onclick="baixarPNG('card-principal', 'Proficiencia')">PNG</button>
-                    <h5 class="fw-bold mb-4 text-secondary">Evolução da Proficiência Média</h5>
-                    <div style="height:450px"><canvas id="chartProf"></canvas></div>
-                </div>
-            </div>
-
-            <div class="tab-pane fade" id="tab-niveis" role="tabpanel">
-                <div id="gridNiveis"></div>
-            </div>
-
-            <div class="tab-pane fade" id="tab-hist" role="tabpanel">
-                <div id="gridHistorico"></div>
-            </div>
+            <div class="tab-pane fade show active" id="tab-prof"><div class="glass-card"><h5 class="fw-bold mb-4">Proficiência Média</h5><div style="height:400px"><canvas id="chartProf"></canvas></div></div></div>
+            <div class="tab-pane fade" id="tab-ide"><div class="glass-card"><h5 id="titleIde" class="fw-bold mb-4">Indicador de Desempenho (IDE)</h5><div style="height:400px"><canvas id="chartIde"></canvas></div></div></div>
+            <div class="tab-pane fade" id="tab-niveis"><div id="gridNiveis"></div></div>
+            <div class="tab-pane fade" id="tab-hist"><div id="gridHistorico"></div></div>
         </div>
-
-        <footer>© 2026 SME Maracanaú - Todos os direitos reservados.</footer>
+        <footer>© 2026 SME Maracanaú</footer>
     </main>
 </div>
 
 <script>
 let database = [];
 let chartProfInstance = null;
+let chartIdeInstance = null;
 Chart.register(ChartDataLabels);
 
 async function load() {
@@ -143,7 +121,7 @@ async function load() {
             fetch('result_alfa.json').then(r => r.json())
         ]);
         database = [...rS, ...rA];
-    } catch(e) { console.error("Erro ao carregar JSON"); }
+    } catch(e) { console.error("Erro ao carregar arquivos JSON"); }
 }
 
 function entrar() {
@@ -152,80 +130,85 @@ function entrar() {
     if(find) {
         document.getElementById('login-overlay').style.display = 'none';
         document.getElementById('app').style.display = 'block';
-        const etapas = [...new Set(database.filter(d => String(d.INEP_ESC || d.INEP) === inep).map(d => d.ETAPA))];
+        
+        // ORDEM: 2º, 5º, 9º
+        const etapas = [...new Set(database.filter(d => String(d.INEP_ESC || d.INEP) === inep).map(d => d.ETAPA))].sort((a,b) => parseInt(a) - parseInt(b));
         document.getElementById('selEtapa').innerHTML = etapas.map(e => `<option>${e}</option>`).join('');
         popularComponentes();
-    } else { iziToast.error({title:'Erro', message:'INEP não encontrado!'}); }
+    } else { iziToast.error({title:'Erro', message:'INEP não localizado.'}); }
 }
 
 function popularComponentes() {
     const inep = document.getElementById('inepInput').value;
     const etapa = document.getElementById('selEtapa').value;
-    const comps = [...new Set(database.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa).map(d => d.COMPONENTE_CURRICULAR || d.DISCIPLINA))];
+    
+    // ORDEM: Lingua Portuguesa depois Matematica
+    const comps = [...new Set(database.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa).map(d => d.COMPONENTE_CURRICULAR || d.DISCIPLINA))].sort((a,b) => b.localeCompare(a));
     document.getElementById('selComp').innerHTML = comps.map(c => `<option>${c}</option>`).join('');
     render();
 }
 
 function parseVal(v) {
     if(!v) return 0;
-    return Math.round(parseFloat(String(v).replace('%', '').replace(',', '.')) || 0);
+    return parseFloat(String(v).replace('%', '').replace(',', '.')) || 0;
 }
 
 function render() {
     const inep = document.getElementById('inepInput').value;
     const etapa = document.getElementById('selEtapa').value;
     const comp = document.getElementById('selComp').value;
-    const rows = database.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa && (d.COMPONENTE_CURRICULAR === comp || d.DISCIPLINA === comp)).sort((a,b) => a.EDICAO - b.EDICAO);
+    
+    const rowsBase = database.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa && (d.COMPONENTE_CURRICULAR === comp || d.DISCIPLINA === comp));
+    
+    const rowsAsc = [...rowsBase].sort((a,b) => a.EDICAO - b.EDICAO); // Para os gráficos de linha/barra (ordem cronológica)
+    const rowsDesc = [...rowsBase].sort((a,b) => b.EDICAO - a.EDICAO); // Para os Cards (mais recente primeiro)
 
-    document.getElementById('hEscola').innerText = rows[0].ESCOLA || rows[0].NO_MUNICIPIO;
+    document.getElementById('hEscola').innerText = rowsAsc[0].ESCOLA || rowsAsc[0].NO_MUNICIPIO;
     document.getElementById('hInep').innerText = `INEP: ${inep} | ${etapa} | ${comp}`;
 
-    renderProf(rows);
-    renderNiveis(rows, etapa);
-    renderHistorico(rows);
+    renderProf(rowsAsc);
+    renderIde(rowsAsc, etapa, comp);
+    renderNiveis(rowsDesc, etapa);
+    renderHistorico(rowsDesc);
 }
 
-// ABA 1: Gráfico de Barras Vistoso
 function renderProf(rows) {
     if(chartProfInstance) chartProfInstance.destroy();
     const ctx = document.getElementById('chartProf').getContext('2d');
-    
-    // Gradiente para as barras
-    const gradient = ctx.createLinearGradient(0, 0, 0, 400);
-    gradient.addColorStop(0, '#4f46e5');
-    gradient.addColorStop(1, '#818cf8');
-
     chartProfInstance = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: rows.map(r => r.EDICAO),
+            datasets: [{ label: 'Proficiência', data: rows.map(r => Math.round(parseVal(r.PROFICIENCIA_MEDIA))), backgroundColor: '#4f46e5', borderRadius: 10 }]
+        },
+        options: { maintainAspectRatio: false, plugins: { datalabels: { anchor:'end', align:'top', font:{weight:'bold'} } } }
+    });
+}
+
+function renderIde(rows, etapa, comp) {
+    if(chartIdeInstance) chartIdeInstance.destroy();
+    const ctx = document.getElementById('chartIde').getContext('2d');
+    
+    let labelIde = etapa.includes('2º') ? 'IDE-ALFA' : (comp.includes('Port') ? 'IDE-LP' : 'IDE-MT');
+    document.getElementById('titleIde').innerText = `Indicador: ${labelIde}`;
+
+    chartIdeInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: rows.map(r => r.EDICAO),
             datasets: [{
-                label: 'Proficiência Média',
-                data: rows.map(r => parseVal(r.PROFICIENCIA_MEDIA)),
-                backgroundColor: gradient,
-                borderRadius: 12,
-                hoverBackgroundColor: '#4338ca',
-                barPercentage: 0.6
+                label: labelIde,
+                data: rows.map(r => parseVal(r.IDE_ALFA || r.IDE_LP || r.IDE_MT || r.IDE)),
+                borderColor: '#10b981', backgroundColor: '#10b981', tension: 0.3, fill: false, pointRadius: 6
             }]
         },
         options: {
             maintainAspectRatio: false,
-            plugins: {
-                legend: { display: false },
-                datalabels: {
-                    anchor: 'end', align: 'top', color: '#1e293b', font: { weight: 'bold', size: 14 },
-                    formatter: v => v
-                }
-            },
-            scales: {
-                y: { beginAtZero: true, grid: { display: false }, ticks: { display: false } },
-                x: { grid: { display: false }, ticks: { font: { weight: 'bold' } } }
-            }
+            plugins: { datalabels: { anchor:'end', align:'top', font:{weight:'bold'}, formatter: v => v.toFixed(1) } }
         }
     });
 }
 
-// ABA 2: Níveis Stacked Horizontal 100%
 function renderNiveis(rows, etapa) {
     const cont = document.getElementById('gridNiveis');
     cont.innerHTML = '';
@@ -233,8 +216,6 @@ function renderNiveis(rows, etapa) {
 
     rows.forEach((row, i) => {
         const canvasId = `cn-${i}`;
-        const cardId = `card-nv-${i}`;
-        
         let labels, values, cores;
         if(isAlfa) {
             labels = ['Não Alfab.', 'Incompleta', 'Intermediário', 'Suficiente', 'Desejável'];
@@ -246,91 +227,38 @@ function renderNiveis(rows, etapa) {
             cores = ['#ef4444', '#facc15', '#4ade80', '#166534'];
         }
 
-        cont.innerHTML += `
-            <div class="glass-card" id="${cardId}">
-                <button class="btn btn-light btn-sm btn-png" onclick="baixarPNG('${cardId}', 'Niveis_${row.EDICAO}')">PNG</button>
-                <h6 class="fw-bold mb-3 text-uppercase small text-muted">Distribuição de Níveis - Edição ${row.EDICAO}</h6>
-                <div style="height: 120px;"><canvas id="${canvasId}"></canvas></div>
-            </div>`;
-
+        cont.innerHTML += `<div class="glass-card"><h6>Edição ${row.EDICAO}</h6><div style="height:100px"><canvas id="${canvasId}"></canvas></div></div>`;
         setTimeout(() => {
             new Chart(document.getElementById(canvasId), {
-                type: 'bar',
-                data: {
-                    labels: [''],
-                    datasets: labels.map((l, idx) => ({
-                        label: l,
-                        data: [values[idx]],
-                        backgroundColor: cores[idx],
-                        barThickness: 50
-                    }))
-                },
-                options: {
-                    indexAxis: 'y',
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { position: 'bottom', labels: { boxWidth: 10, font: {size: 10, weight: 'bold'} } },
-                        datalabels: { color: '#000', font: {weight: 'bold'}, formatter: v => v > 0 ? v + '%' : '' }
-                    },
-                    scales: {
-                        x: { stacked: true, display: false, max: 100 },
-                        y: { stacked: true, display: false }
-                    }
-                }
+                type: 'bar', data: { labels: [''], datasets: labels.map((l, idx) => ({ label: l, data: [Math.round(values[idx])], backgroundColor: cores[idx] })) },
+                options: { indexAxis: 'y', maintainAspectRatio: false, plugins: { legend:{position:'bottom'}, datalabels: { formatter: v => v+'%' } }, scales: { x:{stacked:true, max:100}, y:{stacked:true} } }
             });
         }, 150);
     });
 }
 
-// ABA 3: Evolução Histórica
 function renderHistorico(rows) {
     const cont = document.getElementById('gridHistorico');
-    cont.innerHTML = '<h5 class="fw-bold mb-4 text-secondary">Análise Comparativa de Evolução</h5>';
-    
-    for(let i = 1; i < rows.length; i++) {
-        const atual = parseVal(rows[i].PROFICIENCIA_MEDIA);
-        const anterior = parseVal(rows[i-1].PROFICIENCIA_MEDIA);
+    cont.innerHTML = '<h5 class="fw-bold mb-4">Evolução Histórica (Recente para Antigo)</h5>';
+    for(let i = 0; i < rows.length - 1; i++) {
+        const atual = Math.round(parseVal(rows[i].PROFICIENCIA_MEDIA));
+        const anterior = Math.round(parseVal(rows[i+1].PROFICIENCIA_MEDIA));
         const diff = atual - anterior;
-        
-        let badgeClass = diff > 0 ? 'up' : diff < 0 ? 'down' : 'equal';
-        let statusTxt = diff > 0 ? 'CRESCIMENTO' : diff < 0 ? 'QUEDA' : 'ESTAGNADO';
-        let icon = diff > 0 ? 'fa-arrow-trend-up' : diff < 0 ? 'fa-arrow-trend-down' : 'fa-equals';
-
+        let badge = diff > 0 ? 'up' : diff < 0 ? 'down' : 'equal';
         cont.innerHTML += `
-            <div class="glass-card">
-                <div class="row align-items-center">
-                    <div class="col-md-4">
-                        <small class="text-muted fw-bold d-block mb-1">COMPARAÇÃO</small>
-                        <h5 class="fw-bold mb-0">${rows[i-1].EDICAO} <i class="fas fa-arrow-right mx-2 opacity-25"></i> ${rows[i].EDICAO}</h5>
-                    </div>
-                    <div class="col-md-3 text-center">
-                        <small class="text-muted fw-bold d-block mb-1">VARIAÇÃO</small>
-                        <h4 class="fw-800 mb-0 ${diff > 0 ? 'text-success' : 'text-danger'}">${diff > 0 ? '+' : ''}${diff} pts</h4>
-                    </div>
-                    <div class="col-md-5 text-end">
-                        <div class="status-badge ${badgeClass}">
-                            <i class="fas ${icon}"></i> ${statusTxt}
-                        </div>
-                    </div>
-                </div>
-            </div>`;
+            <div class="glass-card"><div class="row align-items-center">
+                <div class="col-md-4"><b>${rows[i].EDICAO}</b> vs <b>${rows[i+1].EDICAO}</b></div>
+                <div class="col-md-4 text-center">Variação: <span class="fw-800">${diff > 0 ? '+' : ''}${diff} pts</span></div>
+                <div class="col-md-4 text-end"><div class="status-badge ${badge}">${diff >= 0 ? 'CRESCIMENTO' : 'QUEDA'}</div></div>
+            </div></div>`;
     }
 }
 
-async function baixarPNG(id, nome) {
-    const canvas = await html2canvas(document.getElementById(id), { scale: 2 });
-    const link = document.createElement('a');
-    link.download = `${nome}.png`;
-    link.href = canvas.toDataURL();
-    link.click();
-}
-
 async function gerarPDF() {
-    iziToast.info({title:'Aguarde', message: 'Gerando PDF...'});
-    const canvas = await html2canvas(document.getElementById('content'), { scale: 2 });
+    const canvas = await html2canvas(document.getElementById('content'));
     const doc = new jspdf.jsPDF('p', 'mm', 'a4');
     doc.addImage(canvas.toDataURL('image/png'), 'PNG', 10, 10, 190, (canvas.height * 190) / canvas.width);
-    doc.save('Relatorio_SPAECE_Pro.pdf');
+    doc.save('SPAECE_Relatorio.pdf');
 }
 
 window.onload = load;
