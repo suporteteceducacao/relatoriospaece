@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPAECE Analytics Pro V11.5</title>
+    <title>SPAECE Analytics Pro V12.0</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -19,61 +19,63 @@
     <style>
         :root {
             --primary: #0f172a; --accent: #4f46e5;
-            --c-vermelho: #ef4444; --c-laranja: #f97316; --c-amarelo: #facc15; 
-            --c-verdelight: #4ade80; --c-verdedark: #166534;
+            --c-red: #ef4444; --c-orange: #f97316; --c-yellow: #facc15; 
+            --c-green-l: #4ade80; --c-green-d: #166534;
         }
 
-        body { background-color: #f1f5f9; font-family: 'Inter', sans-serif; }
+        body { background-color: #f8fafc; font-family: 'Inter', sans-serif; color: #1e293b; }
 
-        /* TELA DE ABERTURA BRANCA */
+        /* TELA DE ABERTURA - FOCO NO LOGIN */
         #login-overlay {
             position: fixed; inset: 0; z-index: 9999;
-            background: #ffffff;
+            background: #e2e8f0; /* Fundo mais escuro para focar no card */
             display: flex; align-items: center; justify-content: center;
         }
         .login-card {
-            background: #ffffff; border: 1px solid #e2e8f0; padding: 50px;
-            border-radius: 30px; width: 100%; max-width: 450px; text-align: center;
-            box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); color: #1e293b;
+            background: #ffffff; border-radius: 24px; width: 100%; max-width: 420px; 
+            padding: 45px; text-align: center; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.15);
         }
 
         #sidebar { width: 300px; height: 100vh; position: fixed; background: var(--primary); color: white; padding: 30px; z-index: 100; }
         #content { margin-left: 300px; padding: 40px; min-height: 100vh; }
 
-        .glass-card { background: white; border-radius: 20px; padding: 25px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05); margin-bottom: 30px; position: relative; border: 1px solid #e2e8f0; }
-        .nav-pills .nav-link { color: #64748b; font-weight: 700; border-radius: 12px; padding: 12px 20px; }
+        .glass-card { background: white; border-radius: 20px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 30px; position: relative; border: 1px solid #edf2f7; }
+        
+        /* ABAS */
+        .nav-pills .nav-link { color: #64748b; font-weight: 700; border-radius: 12px; padding: 10px 18px; margin-right: 5px; }
         .nav-pills .nav-link.active { background: var(--accent); color: white; }
 
-        .status-badge { padding: 12px 25px; border-radius: 50px; font-weight: 800; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 8px; }
-        .up { background: #dcfce7; color: #15803d; }
-        .down { background: #fee2e2; color: #b91c1c; }
-        .equal { background: #f1f5f9; color: #475569; }
+        /* EVOLUÇÃO HISTÓRICA */
+        .evolution-row { background: #ffffff; border-left: 6px solid #cbd5e1; transition: 0.3s; }
+        .evo-up { border-left-color: #22c55e; background: #f0fdf4; }
+        .evo-down { border-left-color: #ef4444; background: #fef2f2; }
+        .evo-icon { width: 45px; height: 45px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
 
-        footer { margin-top: 50px; text-align: center; color: #94a3b8; font-size: 0.8rem; }
+        .btn-dl { position: absolute; top: 15px; right: 15px; font-size: 10px; font-weight: bold; z-index: 5; }
+        
+        @media print { .no-print { display: none; } #content { margin-left: 0; padding: 0; } }
     </style>
 </head>
 <body>
 
 <div id="login-overlay">
-    <div class="login-card animate__animated animate__fadeIn">
-        <div class="mb-4">
-            <i class="fas fa-chart-line fa-4x text-accent mb-3"></i>
-            <h2 class="fw-800 text-dark">SPAECE <span style="color:var(--accent)">PRO</span></h2>
-            <p class="text-muted">Acesso ao Painel de Monitoramento</p>
-        </div>
-        <input type="text" id="inepInput" class="form-control form-control-lg bg-light border-1 text-center mb-4" placeholder="CÓDIGO INEP">
-        <button class="btn btn-primary btn-lg w-100 fw-bold rounded-4 shadow" onclick="entrar()">ENTRAR</button>
+    <div class="login-card animate__animated animate__fadeInDown">
+        <div class="mb-4 text-primary"><i class="fas fa-fingerprint fa-4x mb-3"></i></div>
+        <h3 class="fw-800 mb-1">Portal SPAECE</h3>
+        <p class="text-muted small mb-4">Insira o INEP da unidade escolar</p>
+        <input type="text" id="inepInput" class="form-control form-control-lg text-center mb-3 shadow-sm" placeholder="Código INEP">
+        <button class="btn btn-primary btn-lg w-100 fw-bold rounded-3" onclick="entrar()">ENTRAR NO PAINEL</button>
     </div>
 </div>
 
 <div id="app" style="display:none;">
     <aside id="sidebar">
         <div class="mb-5 text-center">
-            <h5 class="fw-bold mb-0">ANALYTICS V11.5</h5>
-            <small class="text-white-50">SME Maracanaú</small>
+            <h4 class="fw-800 text-white mb-0">ANALYTICS</h4>
+            <span class="badge bg-primary">V12.0 ENTERPRISE</span>
         </div>
         <div class="mb-4">
-            <label class="small fw-bold text-white-50">ETAPA</label>
+            <label class="small fw-bold text-white-50">ETAPA (ORDEM CRESC.)</label>
             <select id="selEtapa" class="form-select bg-dark text-white border-0 mt-2" onchange="popularComponentes()"></select>
         </div>
         <div class="mb-4">
@@ -81,37 +83,59 @@
             <select id="selComp" class="form-select bg-dark text-white border-0 mt-2" onchange="render()"></select>
         </div>
         <hr class="opacity-25 my-5">
-        <button class="btn btn-outline-danger w-100 mb-2" onclick="location.reload()">NOVA CONSULTA</button>
-        <button class="btn btn-success w-100" onclick="gerarPDF()">GERAR PDF</button>
+        <button class="btn btn-outline-light w-100 mb-2 btn-sm" onclick="location.reload()">NOVA CONSULTA</button>
+        <button class="btn btn-success w-100 fw-bold shadow" onclick="gerarPDF()">BAIXAR RELATÓRIO PDF</button>
     </aside>
 
     <main id="content">
-        <header class="mb-4">
-            <h2 id="hEscola" class="fw-800 text-primary mb-1">---</h2>
-            <span id="hInep" class="badge bg-white text-dark shadow-sm p-2">INEP: ---</span>
+        <header class="mb-4 d-flex justify-content-between align-items-end">
+            <div>
+                <h2 id="hEscola" class="fw-800 text-primary mb-0">---</h2>
+                <span id="hInep" class="text-muted fw-bold">INEP: ---</span>
+            </div>
+            <div class="text-end no-print">
+                <i class="fas fa-university fa-2x text-light"></i>
+            </div>
         </header>
 
-        <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
+        <ul class="nav nav-pills mb-4 no-print" id="pills-tab">
             <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-prof">PROFICIÊNCIA</button></li>
             <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-ide">INDICADOR IDE</button></li>
             <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-niveis">NÍVEIS (100%)</button></li>
             <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-hist">EVOLUÇÃO HISTÓRICA</button></li>
         </ul>
 
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="tab-prof"><div class="glass-card"><h5 class="fw-bold mb-4">Proficiência Média</h5><div style="height:400px"><canvas id="chartProf"></canvas></div></div></div>
-            <div class="tab-pane fade" id="tab-ide"><div class="glass-card"><h5 id="titleIde" class="fw-bold mb-4">Indicador de Desempenho (IDE)</h5><div style="height:400px"><canvas id="chartIde"></canvas></div></div></div>
-            <div class="tab-pane fade" id="tab-niveis"><div id="gridNiveis"></div></div>
-            <div class="tab-pane fade" id="tab-hist"><div id="gridHistorico"></div></div>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab-prof">
+                <div class="glass-card" id="card-prof">
+                    <button class="btn btn-light shadow-sm btn-dl" onclick="baixarPNG('card-prof', 'Proficiencia')"><i class="fas fa-camera me-1"></i>PNG</button>
+                    <h5 class="fw-bold mb-4 text-secondary"><i class="fas fa-chart-bar me-2"></i>Evolução da Proficiência</h5>
+                    <div style="height:400px"><canvas id="chartProf"></canvas></div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="tab-ide">
+                <div class="glass-card" id="card-ide">
+                    <button class="btn btn-light shadow-sm btn-dl" onclick="baixarPNG('card-ide', 'Indicador_IDE')"><i class="fas fa-camera me-1"></i>PNG</button>
+                    <h5 id="titleIde" class="fw-bold mb-4 text-secondary"><i class="fas fa-chart-line me-2"></i>IDE</h5>
+                    <div style="height:400px"><canvas id="chartIde"></canvas></div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="tab-niveis">
+                <div id="gridNiveis"></div>
+            </div>
+
+            <div class="tab-pane fade" id="tab-hist">
+                <div id="gridHistorico"></div>
+            </div>
         </div>
-        <footer>© 2026 SME Maracanaú</footer>
     </main>
 </div>
 
 <script>
-let database = [];
-let chartProfInstance = null;
-let chartIdeInstance = null;
+let db = [];
+let chartP = null; let chartI = null;
 Chart.register(ChartDataLabels);
 
 async function load() {
@@ -120,118 +144,107 @@ async function load() {
             fetch('result_spaece.json').then(r => r.json()),
             fetch('result_alfa.json').then(r => r.json())
         ]);
-        database = [...rS, ...rA];
-    } catch(e) { console.error("Erro ao carregar arquivos JSON"); }
+        db = [...rS, ...rA];
+    } catch(e) { console.error("Erro JSON"); }
 }
 
 function entrar() {
     const inep = document.getElementById('inepInput').value;
-    const find = database.find(d => String(d.INEP_ESC || d.INEP) === inep);
+    const find = db.find(d => String(d.INEP_ESC || d.INEP) === inep);
     if(find) {
         document.getElementById('login-overlay').style.display = 'none';
         document.getElementById('app').style.display = 'block';
         
-        // ORDEM: 2º, 5º, 9º
-        const etapas = [...new Set(database.filter(d => String(d.INEP_ESC || d.INEP) === inep).map(d => d.ETAPA))].sort((a,b) => parseInt(a) - parseInt(b));
+        const etapas = [...new Set(db.filter(d => String(d.INEP_ESC || d.INEP) === inep).map(d => d.ETAPA))].sort((a,b) => parseInt(a) - parseInt(b));
         document.getElementById('selEtapa').innerHTML = etapas.map(e => `<option>${e}</option>`).join('');
         popularComponentes();
-    } else { iziToast.error({title:'Erro', message:'INEP não localizado.'}); }
+    } else { iziToast.error({title:'Erro', message:'INEP não encontrado!'}); }
 }
 
 function popularComponentes() {
     const inep = document.getElementById('inepInput').value;
     const etapa = document.getElementById('selEtapa').value;
-    
-    // ORDEM: Lingua Portuguesa depois Matematica
-    const comps = [...new Set(database.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa).map(d => d.COMPONENTE_CURRICULAR || d.DISCIPLINA))].sort((a,b) => b.localeCompare(a));
+    const comps = [...new Set(db.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa).map(d => d.COMPONENTE_CURRICULAR || d.DISCIPLINA))].sort((a,b) => b.localeCompare(a));
     document.getElementById('selComp').innerHTML = comps.map(c => `<option>${c}</option>`).join('');
     render();
 }
 
-function parseVal(v) {
+function parseV(v) { 
     if(!v) return 0;
-    return parseFloat(String(v).replace('%', '').replace(',', '.')) || 0;
+    return parseFloat(String(v).replace('%','').replace(',','.')) || 0; 
 }
 
 function render() {
     const inep = document.getElementById('inepInput').value;
     const etapa = document.getElementById('selEtapa').value;
     const comp = document.getElementById('selComp').value;
-    
-    const rowsBase = database.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa && (d.COMPONENTE_CURRICULAR === comp || d.DISCIPLINA === comp));
-    
-    const rowsAsc = [...rowsBase].sort((a,b) => a.EDICAO - b.EDICAO); // Para os gráficos de linha/barra (ordem cronológica)
-    const rowsDesc = [...rowsBase].sort((a,b) => b.EDICAO - a.EDICAO); // Para os Cards (mais recente primeiro)
+    const rows = db.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa && (d.COMPONENTE_CURRICULAR === comp || d.DISCIPLINA === comp)).sort((a,b) => a.EDICAO - b.EDICAO);
 
-    document.getElementById('hEscola').innerText = rowsAsc[0].ESCOLA || rowsAsc[0].NO_MUNICIPIO;
-    document.getElementById('hInep').innerText = `INEP: ${inep} | ${etapa} | ${comp}`;
+    document.getElementById('hEscola').innerText = rows[0].ESCOLA || rows[0].NO_MUNICIPIO;
+    document.getElementById('hInep').innerText = `INEP: ${inep} | ${etapa}`;
 
-    renderProf(rowsAsc);
-    renderIde(rowsAsc, etapa, comp);
+    const rowsDesc = [...rows].reverse();
+
+    renderProf(rows);
+    renderIde(rows, etapa, comp);
     renderNiveis(rowsDesc, etapa);
     renderHistorico(rowsDesc);
 }
 
 function renderProf(rows) {
-    if(chartProfInstance) chartProfInstance.destroy();
-    const ctx = document.getElementById('chartProf').getContext('2d');
-    chartProfInstance = new Chart(ctx, {
+    if(chartP) chartP.destroy();
+    chartP = new Chart(document.getElementById('chartProf'), {
         type: 'bar',
         data: {
             labels: rows.map(r => r.EDICAO),
-            datasets: [{ label: 'Proficiência', data: rows.map(r => Math.round(parseVal(r.PROFICIENCIA_MEDIA))), backgroundColor: '#4f46e5', borderRadius: 10 }]
+            datasets: [{ data: rows.map(r => Math.round(parseV(r.PROFICIENCIA_MEDIA))), backgroundColor: '#4f46e5', borderRadius: 8 }]
         },
-        options: { maintainAspectRatio: false, plugins: { datalabels: { anchor:'end', align:'top', font:{weight:'bold'} } } }
+        options: { maintainAspectRatio: false, plugins: { legend: {display:false}, datalabels: { anchor:'end', align:'top', font:{weight:'bold'} } } }
     });
 }
 
 function renderIde(rows, etapa, comp) {
-    if(chartIdeInstance) chartIdeInstance.destroy();
-    const ctx = document.getElementById('chartIde').getContext('2d');
-    
-    let labelIde = etapa.includes('2º') ? 'IDE-ALFA' : (comp.includes('Port') ? 'IDE-LP' : 'IDE-MT');
-    document.getElementById('titleIde').innerText = `Indicador: ${labelIde}`;
+    if(chartI) chartI.destroy();
+    let label = etapa.includes('2º') ? 'IDE Alfa' : (comp.includes('Port') ? 'IDE LP' : 'IDE MT');
+    document.getElementById('titleIde').innerText = `Gráfico de Desempenho: ${label}`;
 
-    chartIdeInstance = new Chart(ctx, {
+    chartI = new Chart(document.getElementById('chartIde'), {
         type: 'line',
         data: {
             labels: rows.map(r => r.EDICAO),
             datasets: [{
-                label: labelIde,
-                data: rows.map(r => parseVal(r.IDE_ALFA || r.IDE_LP || r.IDE_MT || r.IDE)),
-                borderColor: '#10b981', backgroundColor: '#10b981', tension: 0.3, fill: false, pointRadius: 6
+                label: label,
+                data: rows.map(r => parseV(r.IDE_ALFA || r.IDE_LP || r.IDE_MT || r.IDE || 0)),
+                borderColor: '#10b981', pointBackgroundColor: '#10b981', tension: 0.3, fill: false, pointRadius: 5
             }]
         },
-        options: {
-            maintainAspectRatio: false,
-            plugins: { datalabels: { anchor:'end', align:'top', font:{weight:'bold'}, formatter: v => v.toFixed(1) } }
+        options: { 
+            maintainAspectRatio: false, 
+            plugins: { datalabels: { anchor:'end', align:'top', font:{weight:'bold'}, formatter: v => v.toFixed(2) } } 
         }
     });
 }
 
 function renderNiveis(rows, etapa) {
-    const cont = document.getElementById('gridNiveis');
-    cont.innerHTML = '';
-    const isAlfa = etapa.includes('2º');
-
+    const cont = document.getElementById('gridNiveis'); cont.innerHTML = '';
+    const isA = etapa.includes('2º');
     rows.forEach((row, i) => {
-        const canvasId = `cn-${i}`;
-        let labels, values, cores;
-        if(isAlfa) {
-            labels = ['Não Alfab.', 'Incompleta', 'Intermediário', 'Suficiente', 'Desejável'];
-            values = [parseVal(row.NAO_ALFABETIZADOS), parseVal(row.ALFABETIZACAO_INCOMPLETA), parseVal(row.INTERMEDIARIO), parseVal(row.SUFICIENTE), parseVal(row.DESEJAVEL)];
-            cores = ['#ef4444', '#f97316', '#facc15', '#4ade80', '#166534'];
+        const id = `cn-${i}`; const cid = `card-nv-${i}`;
+        let l, v, c;
+        if(isA) {
+            l = ['Não Alfab.', 'Incompleta', 'Intermediário', 'Suficiente', 'Desejável'];
+            v = [parseV(row.NAO_ALFABETIZADOS), parseV(row.ALFABETIZACAO_INCOMPLETA), parseV(row.INTERMEDIARIO), parseV(row.SUFICIENTE), parseV(row.DESEJAVEL)];
+            c = ['#ef4444', '#f97316', '#facc15', '#4ade80', '#166534'];
         } else {
-            labels = ['Muito Crítico', 'Crítico', 'Intermediário', 'Adequado'];
-            values = [parseVal(row.MUITO_CRITICO), parseVal(row.CRITICO), parseVal(row.INTERMEDIARIO), parseVal(row.ADEQUADO)];
-            cores = ['#ef4444', '#facc15', '#4ade80', '#166534'];
+            l = ['Muito Crítico', 'Crítico', 'Intermediário', 'Adequado'];
+            v = [parseV(row.MUITO_CRITICO), parseV(row.CRITICO), parseV(row.INTERMEDIARIO), parseV(row.ADEQUADO)];
+            c = ['#ef4444', '#facc15', '#4ade80', '#166534'];
         }
-
-        cont.innerHTML += `<div class="glass-card"><h6>Edição ${row.EDICAO}</h6><div style="height:100px"><canvas id="${canvasId}"></canvas></div></div>`;
+        cont.innerHTML += `<div class="glass-card" id="${cid}"><button class="btn btn-light shadow-sm btn-dl" onclick="baixarPNG('${cid}', 'Nivel_${row.EDICAO}')"><i class="fas fa-camera"></i></button><h6 class="fw-bold mb-3">Edição ${row.EDICAO} (Acumulado 100%)</h6><div style="height:110px"><canvas id="${id}"></canvas></div></div>`;
         setTimeout(() => {
-            new Chart(document.getElementById(canvasId), {
-                type: 'bar', data: { labels: [''], datasets: labels.map((l, idx) => ({ label: l, data: [Math.round(values[idx])], backgroundColor: cores[idx] })) },
-                options: { indexAxis: 'y', maintainAspectRatio: false, plugins: { legend:{position:'bottom'}, datalabels: { formatter: v => v+'%' } }, scales: { x:{stacked:true, max:100}, y:{stacked:true} } }
+            new Chart(document.getElementById(id), {
+                type: 'bar', data: { labels: [''], datasets: l.map((lab, idx) => ({ label: lab, data: [Math.round(v[idx])], backgroundColor: c[idx] })) },
+                options: { indexAxis: 'y', maintainAspectRatio: false, plugins: { legend:{position:'bottom', labels:{boxWidth:12}}, datalabels: { color: '#000', font:{weight:'bold'}, formatter: val => val > 0 ? val+'%' : '' } }, scales: { x:{stacked:true, display:false, max:100}, y:{stacked:true, display:false} } }
             });
         }, 150);
     });
@@ -239,26 +252,46 @@ function renderNiveis(rows, etapa) {
 
 function renderHistorico(rows) {
     const cont = document.getElementById('gridHistorico');
-    cont.innerHTML = '<h5 class="fw-bold mb-4">Evolução Histórica (Recente para Antigo)</h5>';
+    cont.innerHTML = '<h5 class="fw-bold mb-4 text-secondary"><i class="fas fa-history me-2"></i>Comparativo de Edições (Recente para Antigo)</h5>';
     for(let i = 0; i < rows.length - 1; i++) {
-        const atual = Math.round(parseVal(rows[i].PROFICIENCIA_MEDIA));
-        const anterior = Math.round(parseVal(rows[i+1].PROFICIENCIA_MEDIA));
-        const diff = atual - anterior;
-        let badge = diff > 0 ? 'up' : diff < 0 ? 'down' : 'equal';
+        const vAtu = Math.round(parseV(rows[i].PROFICIENCIA_MEDIA));
+        const vAnt = Math.round(parseV(rows[i+1].PROFICIENCIA_MEDIA));
+        const diff = vAtu - vAnt;
+        const trend = diff > 0 ? 'evo-up' : diff < 0 ? 'evo-down' : '';
+        const icon = diff > 0 ? 'fa-arrow-up' : diff < 0 ? 'fa-arrow-down' : 'fa-equals';
+        const color = diff > 0 ? 'text-success' : diff < 0 ? 'text-danger' : 'text-muted';
+
         cont.innerHTML += `
-            <div class="glass-card"><div class="row align-items-center">
-                <div class="col-md-4"><b>${rows[i].EDICAO}</b> vs <b>${rows[i+1].EDICAO}</b></div>
-                <div class="col-md-4 text-center">Variação: <span class="fw-800">${diff > 0 ? '+' : ''}${diff} pts</span></div>
-                <div class="col-md-4 text-end"><div class="status-badge ${badge}">${diff >= 0 ? 'CRESCIMENTO' : 'QUEDA'}</div></div>
-            </div></div>`;
+            <div class="glass-card evolution-row ${trend} p-4 shadow-sm animate__animated animate__fadeInLeft">
+                <div class="row align-items-center">
+                    <div class="col-md-3 text-center border-end">
+                        <small class="text-muted d-block fw-bold">EDIÇÕES</small>
+                        <h5 class="fw-800 mb-0">${rows[i+1].EDICAO} <i class="fas fa-long-arrow-alt-right mx-2 opacity-50"></i> ${rows[i].EDICAO}</h5>
+                    </div>
+                    <div class="col-md-4 text-center border-end">
+                        <small class="text-muted d-block fw-bold">DIFERENÇA</small>
+                        <h3 class="fw-900 ${color} mb-0">${diff > 0 ? '+' : ''}${diff} <small class="fs-6">pontos</small></h3>
+                    </div>
+                    <div class="col-md-5 d-flex align-items-center justify-content-center">
+                        <div class="evo-icon ${trend} me-3 shadow-sm"><i class="fas ${icon}"></i></div>
+                        <h5 class="fw-800 mb-0 ${color}">${diff > 0 ? 'CRESCIMENTO' : diff < 0 ? 'QUEDA' : 'ESTAGNAÇÃO'}</h5>
+                    </div>
+                </div>
+            </div>`;
     }
 }
 
+async function baixarPNG(id, n) {
+    const c = await html2canvas(document.getElementById(id), { scale: 2 });
+    const l = document.createElement('a'); l.download = `${n}.png`; l.href = c.toDataURL(); l.click();
+}
+
 async function gerarPDF() {
-    const canvas = await html2canvas(document.getElementById('content'));
-    const doc = new jspdf.jsPDF('p', 'mm', 'a4');
-    doc.addImage(canvas.toDataURL('image/png'), 'PNG', 10, 10, 190, (canvas.height * 190) / canvas.width);
-    doc.save('SPAECE_Relatorio.pdf');
+    iziToast.info({title:'Processando', message: 'Gerando PDF de alta qualidade...'});
+    const c = await html2canvas(document.getElementById('content'), { scale: 2 });
+    const d = new jspdf.jsPDF('p', 'mm', 'a4');
+    d.addImage(c.toDataURL('image/png'), 'PNG', 10, 10, 190, (c.height * 190) / c.width);
+    d.save('Relatorio_Completo_SPAECE.pdf');
 }
 
 window.onload = load;
