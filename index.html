@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPAECE Analytics Pro V12.6</title>
+    <title>SPAECE Analytics Pro V13.0</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -18,13 +18,13 @@
 
     <style>
         :root { --primary: #0f172a; --accent: #4f46e5; --sidebar-w: 280px; }
-        body { background-color: #f8fafc; font-family: 'Inter', sans-serif; overflow-x: hidden; }
+        body { background-color: #f8fafc; font-family: 'Inter', sans-serif; }
 
         /* Abertura */
         #login-overlay { position: fixed; inset: 0; z-index: 9999; background: #cbd5e1; display: flex; align-items: center; justify-content: center; }
         .login-card { background: white; padding: 40px; border-radius: 24px; width: 400px; text-align: center; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); }
 
-        /* Sidebar */
+        /* Sidebar e Layout */
         #sidebar { width: var(--sidebar-w); height: 100vh; position: fixed; background: var(--primary); color: white; transition: 0.3s; z-index: 1000; left: 0; padding: 20px; }
         #sidebar.collapsed { left: calc(var(--sidebar-w) * -1); }
         #content { margin-left: var(--sidebar-w); transition: 0.3s; padding: 40px; min-height: 100vh; position: relative; padding-bottom: 80px; }
@@ -34,23 +34,22 @@
         #app:not([style*="display:none"]) .btn-toggle { display: block; }
 
         .glass-card { background: white; border-radius: 20px; padding: 25px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); margin-bottom: 25px; border: 1px solid #e2e8f0; position: relative; }
-        .btn-png { position: absolute; top: 15px; right: 15px; font-size: 11px; font-weight: 700; }
+        .btn-png { position: absolute; top: 15px; right: 15px; font-size: 11px; font-weight: 700; z-index: 10; }
         
-        .footer-fixed { position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: #f1f5f9; display: flex; align-items: center; justify-content: center; border-top: 1px solid #e2e8f0; color: #64748b; font-size: 12px; }
+        /* Card de Soma de Níveis */
+        .sum-card { border-radius: 15px; padding: 15px; text-align: center; display: flex; flex-direction: column; justify-content: center; min-width: 140px; }
+        .bg-low { background-color: #ef4444; color: white; }
+        .bg-high { background-color: #4ade80; color: white; }
 
-        /* Histórico */
-        .evo-card { border-left: 6px solid #cbd5e1; }
-        .evo-up { border-left-color: #22c55e; background: #f0fdf4; }
-        .evo-down { border-left-color: #ef4444; background: #fef2f2; }
+        .footer-fixed { position: absolute; bottom: 0; left: 0; width: 100%; height: 60px; background: #f1f5f9; display: flex; align-items: center; justify-content: center; border-top: 1px solid #e2e8f0; color: #64748b; font-size: 12px; }
     </style>
 </head>
 <body>
 
 <div id="login-overlay">
     <div class="login-card">
-        <i class="fas fa-chart-pie fa-3x text-primary mb-3"></i>
         <h4 class="fw-800">SPAECE ANALYTICS</h4>
-        <p class="text-muted small mb-4">Portal de Dados Educacionais</p>
+        <p class="text-muted small">Insira o INEP para começar</p>
         <input type="text" id="inepInput" class="form-control text-center mb-3" placeholder="Código INEP">
         <button class="btn btn-primary w-100 fw-bold" onclick="entrar()">ACESSAR</button>
     </div>
@@ -62,7 +61,6 @@
     <aside id="sidebar">
         <div class="mt-5 text-center mb-5">
             <h5 class="fw-800">SME MARACANAÚ</h5>
-            <small class="opacity-50">Gestão 2024-2026</small>
         </div>
         <label class="small fw-bold text-white-50">ETAPA</label>
         <select id="selEtapa" class="form-select bg-dark text-white border-0 mb-4" onchange="popularComponentes()"></select>
@@ -70,13 +68,14 @@
         <label class="small fw-bold text-white-50">COMPONENTE</label>
         <select id="selComp" class="form-select bg-dark text-white border-0 mb-5" onchange="render()"></select>
         
-        <button class="btn btn-success w-100 fw-bold shadow-sm" onclick="gerarPDF()">GERAR RELATÓRIO PDF</button>
+        <button class="btn btn-danger w-100 fw-bold mb-2 shadow-sm" onclick="location.reload()">NOVA CONSULTA</button>
+        <button class="btn btn-success w-100 fw-bold shadow-sm" onclick="gerarPDF()">GERAR PDF</button>
     </aside>
 
     <main id="content">
         <header class="mb-4 pt-3">
             <h2 id="hEscola" class="fw-800 text-primary mb-0">---</h2>
-            <p id="hInep" class="text-muted mb-0">---</p>
+            <p id="hInep" class="text-muted mb-0 font-weight-bold">---</p>
         </header>
 
         <ul class="nav nav-pills mb-4" id="mainTabs">
@@ -90,7 +89,7 @@
             <div class="tab-pane fade show active" id="t-prof">
                 <div class="glass-card" id="c-prof">
                     <button class="btn btn-light btn-sm btn-png" onclick="baixarPNG('c-prof','Proficiencia')">PNG</button>
-                    <h5 class="fw-bold mb-4">Proficiência Média por Edição</h5>
+                    <h5 class="fw-bold mb-4">Proficiência Média</h5>
                     <div style="height:400px"><canvas id="chartProf"></canvas></div>
                 </div>
             </div>
@@ -125,7 +124,7 @@ async function load() {
             fetch('result_alfa.json').then(r => r.json())
         ]);
         database = [...rS, ...rA];
-    } catch(e) { console.error("Erro no JSON"); }
+    } catch(e) { console.error("Erro JSON"); }
 }
 
 function toggleMenu() {
@@ -164,31 +163,34 @@ function render() {
     const rows = database.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa && (d.COMPONENTE_CURRICULAR === comp || d.DISCIPLINA === comp)).sort((a,b) => a.EDICAO - b.EDICAO);
 
     document.getElementById('hEscola').innerText = rows[0].ESCOLA || rows[0].NO_MUNICIPIO;
-    document.getElementById('hInep').innerText = `INEP: ${inep} | Etapa: ${etapa} | ${comp}`;
+    document.getElementById('hInep').innerText = `INEP: ${inep} | ${etapa} | ${comp}`;
 
-    // Gráficos (Ordem Cronológica)
     renderProf(rows);
     renderIde(rows, etapa, comp);
-    
-    // Cards (Inverso: 2023 primeiro)
-    const rowsDesc = [...rows].reverse();
-    renderNiveis(rowsDesc, etapa);
-    renderHistorico(rowsDesc);
+    renderNiveis([...rows].reverse(), etapa);
+    renderHistorico([...rows].reverse());
 }
 
 function renderProf(rows) {
     if(chartP) chartP.destroy();
     chartP = new Chart(document.getElementById('chartProf'), {
         type: 'bar',
-        data: { labels: rows.map(r => r.EDICAO), datasets: [{ label: 'Proficiência', data: rows.map(r => Math.round(parse(r.PROFICIENCIA_MEDIA))), backgroundColor: '#4f46e5', borderRadius: 8 }] },
-        options: { maintainAspectRatio: false, plugins: { legend: {display:false}, datalabels: { anchor:'end', align:'top', font:{weight:'bold'} } } }
+        data: { labels: rows.map(r => r.EDICAO), datasets: [{ data: rows.map(r => Math.round(parse(r.PROFICIENCIA_MEDIA))), backgroundColor: '#4f46e5', borderRadius: 8 }] },
+        options: { 
+            maintainAspectRatio: false, 
+            plugins: { 
+                legend: {display:false}, 
+                datalabels: { anchor:'end', align:'top', font:{weight:'800', size: 16}, formatter: Math.round } 
+            },
+            scales: { y: { display: false, grid: { display: false } }, x: { grid: { display: false } } }
+        }
     });
 }
 
 function renderIde(rows, etapa, comp) {
     if(chartI) chartI.destroy();
     let label = etapa.includes('2º') ? 'IDE Alfa' : (comp.includes('Port') ? 'IDE LP' : 'IDE MT');
-    document.getElementById('titleIde').innerText = `Evolução do Indicador: ${label}`;
+    document.getElementById('titleIde').innerText = `Indicador: ${label}`;
 
     chartI = new Chart(document.getElementById('chartIde'), {
         type: 'line',
@@ -196,35 +198,81 @@ function renderIde(rows, etapa, comp) {
             labels: rows.map(r => r.EDICAO),
             datasets: [{
                 label: label,
-                // Leitura robusta do IDE do result_alfa e result_spaece
                 data: rows.map(r => parse(r.IDE_ALFA) || parse(r.IDE_LP) || parse(r.IDE_MT) || parse(r.IDE) || 0),
-                borderColor: '#10b981', tension: 0.3, fill: false, pointRadius: 6, pointBackgroundColor: '#10b981'
+                borderColor: '#10b981', tension: 0.3, fill: false, pointRadius: 7, pointBackgroundColor: '#10b981'
             }]
         },
-        options: { maintainAspectRatio: false, plugins: { datalabels: { anchor:'end', align:'top', font:{weight:'bold'}, formatter: v => v.toFixed(2) } } }
+        options: { 
+            maintainAspectRatio: false, 
+            plugins: { 
+                datalabels: { anchor:'end', align:'top', font:{weight:'800', size: 14}, formatter: v => v.toFixed(2) } 
+            },
+            scales: { y: { display: false, grid: { display: false } }, x: { grid: { display: false } } }
+        }
     });
 }
 
 function renderNiveis(rows, etapa) {
     const cont = document.getElementById('gridNiveis'); cont.innerHTML = '';
     const isA = etapa.includes('2º');
+    
     rows.forEach((row, i) => {
-        const id = `cn-${i}`; const cid = `card-nv-${i}`;
-        let l, v, c;
+        const id = `cn-${i}`; 
+        const cid = `card-nv-${i}`;
+        let l, v, c, soma;
+
         if(isA) {
             l = ['Não Alfab.', 'Incompleta', 'Interm.', 'Sufic.', 'Desej.'];
             v = [parse(row.NAO_ALFABETIZADOS), parse(row.ALFABETIZACAO_INCOMPLETA), parse(row.INTERMEDIARIO), parse(row.SUFICIENTE), parse(row.DESEJAVEL)];
             c = ['#ef4444', '#f97316', '#facc15', '#4ade80', '#166534'];
+            soma = Math.round(v[3] + v[4]); // Suficiente + Desejável
         } else {
             l = ['M. Crítico', 'Crítico', 'Interm.', 'Adequado'];
             v = [parse(row.MUITO_CRITICO), parse(row.CRITICO), parse(row.INTERMEDIARIO), parse(row.ADEQUADO)];
             c = ['#ef4444', '#facc15', '#4ade80', '#166534'];
+            soma = Math.round(v[2] + v[3]); // Intermediário + Adequado
         }
-        cont.innerHTML += `<div class="glass-card" id="${cid}"><button class="btn btn-light btn-sm btn-png" onclick="baixarPNG('${cid}', 'Nivel_${row.EDICAO}')">PNG</button><h6>Edição ${row.EDICAO} - Níveis</h6><div style="height:110px"><canvas id="${id}"></canvas></div></div>`;
+
+        const somaColorClass = soma >= 51 ? 'bg-high' : 'bg-low';
+
+        cont.innerHTML += `
+            <div class="glass-card" id="${cid}">
+                <button class="btn btn-light btn-sm btn-png" onclick="baixarPNG('${cid}', 'Nivel_${row.EDICAO}')">PNG</button>
+                <div class="row align-items-center">
+                    <div class="col-md-9 border-end">
+                        <h6 class="fw-bold mb-3">Edição ${row.EDICAO} - Distribuição por Níveis</h6>
+                        <div style="height:130px"><canvas id="${id}"></canvas></div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="sum-card ${somaColorClass}">
+                            <small class="fw-bold">APRENDIZAGEM <br> ESPERADA</small>
+                            <h2 class="fw-800 mb-0">${soma}%</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+
         setTimeout(() => {
             new Chart(document.getElementById(id), {
-                type: 'bar', data: { labels: [''], datasets: l.map((lab, idx) => ({ label: lab, data: [Math.round(v[idx])], backgroundColor: c[idx] })) },
-                options: { indexAxis: 'y', maintainAspectRatio: false, plugins: { legend:{position:'bottom', labels:{boxWidth:10, font:{size:10}}}, datalabels: { formatter: val => val > 0 ? val+'%' : '' } }, scales: { x:{stacked:true, max:100, display:false}, y:{stacked:true, display:false} } }
+                type: 'bar', 
+                data: { labels: [''], datasets: l.map((lab, idx) => ({ label: lab, data: [Math.round(v[idx])], backgroundColor: c[idx] })) },
+                options: { 
+                    indexAxis: 'y', 
+                    maintainAspectRatio: false, 
+                    plugins: { 
+                        legend:{position:'bottom', labels:{boxWidth:12, font:{size:11, weight:'700'}}}, 
+                        datalabels: { 
+                            font:{weight:'800', size: 14},
+                            color: (ctx) => {
+                                // Branco para Vermelho e Verde Escuro, Preto para os demais
+                                const bg = ctx.dataset.backgroundColor;
+                                return (bg === '#ef4444' || bg === '#166534') ? '#fff' : '#000';
+                            },
+                            formatter: val => val > 0 ? val+'%' : '' 
+                        } 
+                    }, 
+                    scales: { x:{stacked:true, max:100, display:false}, y:{stacked:true, display:false} } 
+                }
             });
         }, 200);
     });
@@ -232,32 +280,21 @@ function renderNiveis(rows, etapa) {
 
 function renderHistorico(rows) {
     const cont = document.getElementById('gridHistorico');
-    cont.innerHTML = '<h5 class="fw-bold mb-4">Análise de Crescimento/Queda</h5>';
+    cont.innerHTML = '<h5 class="fw-bold mb-4">Análise de Crescimento</h5>';
     for(let i = 0; i < rows.length - 1; i++) {
         const vAtu = Math.round(parse(rows[i].PROFICIENCIA_MEDIA));
         const vAnt = Math.round(parse(rows[i+1].PROFICIENCIA_MEDIA));
         const diff = vAtu - vAnt;
-        const statusClass = diff > 0 ? 'evo-up' : diff < 0 ? 'evo-down' : '';
-        const icon = diff > 0 ? 'fa-arrow-trend-up' : diff < 0 ? 'fa-arrow-trend-down' : 'fa-equals';
-        
         cont.innerHTML += `
-            <div class="glass-card evo-card ${statusClass} p-4 animate__animated animate__fadeIn">
+            <div class="glass-card p-4 animate__animated animate__fadeIn">
                 <div class="row align-items-center">
-                    <div class="col-md-3"><b>${rows[i+1].EDICAO} <i class="fas fa-arrow-right mx-2 opacity-25"></i> ${rows[i].EDICAO}</b></div>
+                    <div class="col-md-3"><b>${rows[i+1].EDICAO} <i class="fas fa-arrow-right mx-1 opacity-50"></i> ${rows[i].EDICAO}</b></div>
                     <div class="col-md-4 text-center">Variação: <h3 class="fw-900 d-inline ${diff<0?'text-danger':'text-success'}">${diff>0?'+':''}${diff}</h3> pts</div>
-                    <div class="col-md-5 text-end"><span class="badge ${diff>=0?'bg-success':'bg-danger'} p-2"><i class="fas ${icon} me-2"></i> ${diff>=0?'CRESCIMENTO':'QUEDA'}</span></div>
+                    <div class="col-md-5 text-end"><span class="badge ${diff>=0?'bg-success':'bg-danger'} p-2"><i class="fas ${diff>=0?'fa-arrow-up':'fa-arrow-down'} me-2"></i> ${diff>=0?'CRESCIMENTO':'QUEDA'}</span></div>
                 </div>
             </div>`;
     }
 }
-
-// Redesenha gráficos ao trocar de aba para evitar que fiquem "travados" ou pequenos
-document.querySelectorAll('button[data-bs-toggle="pill"]').forEach(btn => {
-    btn.addEventListener('shown.bs.tab', () => {
-        if(chartP) chartP.resize();
-        if(chartI) chartI.resize();
-    });
-});
 
 async function baixarPNG(id, n) {
     const c = await html2canvas(document.getElementById(id), { scale: 2 });
@@ -268,7 +305,7 @@ async function gerarPDF() {
     const c = await html2canvas(document.getElementById('content'), { scale: 2 });
     const d = new jspdf.jsPDF('p', 'mm', 'a4');
     d.addImage(c.toDataURL('image/png'), 'PNG', 10, 10, 190, (c.height * 190) / c.width);
-    d.save('Relatorio_SPAECE.pdf');
+    d.save('Relatorio_SPAECE_V13.pdf');
 }
 
 window.onload = load;
