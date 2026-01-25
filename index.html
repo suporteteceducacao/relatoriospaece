@@ -55,7 +55,7 @@
 
 <div id="login-overlay">
     <div class="login-card">
-        <h4 class="fw-800">SPAECE DASHBOARD V14.2 2026</h4>
+        <h4 class="fw-800">SPAECE DASHBOARD </h4>
         <input type="text" id="inepInput" class="form-control text-center mb-3" placeholder="Código INEP">
         <button class="btn btn-primary w-100 fw-bold" onclick="entrar()">ACESSAR</button>
     </div>
@@ -65,7 +65,7 @@
     <button class="btn btn-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
 
     <aside id="sidebar">
-        <div class="mt-5 text-center mb-5"><h5 class="fw-800">SPAECE DASHBOARD</h5></div>
+        <div class="mt-5 text-center mb-5"><h5 class="fw-800">SPAECE DASHBOARD V14.2 2026</h5></div>
         <label class="small fw-bold text-white-50">ETAPA</label>
         <select id="selEtapa" class="form-select bg-dark text-white border-0 mb-4" onchange="popularComponentes()"></select>
         <label class="small fw-bold text-white-50">COMPONENTE</label>
@@ -157,7 +157,7 @@ function render() {
 // ABA COMPARAÇÃO COM KPI CARD ELEGANTE
 function renderComparacao(rowsEscola, etapa, comp) {
     const cont = document.getElementById('gridComparativo');
-    cont.innerHTML = '<h5 class="fw-bold mb-4">Benchmarking Rede (Escola vs Município)</h5>';
+    cont.innerHTML = '<h5 class="fw-bold mb-4">Resultados em Rede (Proficiência média)</h5>';
     
     const rowsGeral = database.filter(d => d.ETAPA === etapa && (d.COMPONENTE_CURRICULAR === comp || d.DISCIPLINA === comp));
     const edicoes = [...new Set(rowsEscola.map(r => r.EDICAO))].sort((a,b) => b-a);
@@ -181,9 +181,9 @@ function renderComparacao(rowsEscola, etapa, comp) {
                         <h6 class="fw-800 text-primary border-bottom pb-2 mb-3">EDIÇÃO ${ano}</h6>
                         <div class="row text-center">
                             <div class="col-6 col-md-3">Sua Escola<br><span class="val-pill val-esc">${valEsc.toFixed(0)}</span></div>
-                            <div class="col-6 col-md-3">Média Rede<br><span class="val-pill val-mun">${valMun.toFixed(0)}</span></div>
-                            <div class="col-6 col-md-3">Mínimo Rede<br><span class="val-pill val-min">${valMin.toFixed(0)}</span></div>
-                            <div class="col-6 col-md-3">Máximo Rede<br><span class="val-pill val-max">${valMax.toFixed(0)}</span></div>
+                            <div class="col-6 col-md-3">Proficiência Rede<br><span class="val-pill val-mun">${valMun.toFixed(0)}</span></div>
+                            <div class="col-6 col-md-3">Proficiência Mínima<br><span class="val-pill val-min">${valMin.toFixed(0)}</span></div>
+                            <div class="col-6 col-md-3">Proficiência Máxima <br><span class="val-pill val-max">${valMax.toFixed(0)}</span></div>
                         </div>
                     </div>
                     <div class="col-md-3">
@@ -268,4 +268,5 @@ window.onload = load;
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
