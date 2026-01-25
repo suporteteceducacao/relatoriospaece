@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPAECE Analytics V11.0 | High Performance</title>
+    <title>SPAECE Analytics Pro V11.0</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
@@ -18,272 +17,284 @@
 
     <style>
         :root {
-            --primary: #0f172a; --accent: #6366f1; --bg: #f8fafc;
-            --n1: #ef4444; --n2: #f97316; --n3: #fbbf24; --n4: #34d399; --n5: #059669;
+            --primary: #0f172a; --accent: #4f46e5;
+            --c-vermelho: #ef4444; --c-laranja: #f97316; --c-amarelo: #facc15; 
+            --c-verdelight: #4ade80; --c-verdedark: #166534;
         }
-        body { font-family: 'Inter', sans-serif; background: var(--bg); color: #1e293b; }
-        
-        /* Overlay Login */
+
+        /* Tela de Abertura Elegante */
         #login-overlay {
-            position: fixed; inset: 0; z-index: 9999; background: var(--primary);
-            display: flex; align-items: center; justify-content: center; transition: 0.5s;
+            position: fixed; inset: 0; z-index: 9999;
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+            display: flex; align-items: center; justify-content: center;
         }
-        .login-card { background: white; padding: 40px; border-radius: 24px; width: 100%; max-width: 400px; text-align: center; }
-
-        /* Layout */
-        #sidebar { width: 300px; height: 100vh; position: fixed; background: var(--primary); color: white; padding: 25px; }
-        #content { margin-left: 300px; padding: 40px; }
-
-        .glass-card { 
-            background: white; border-radius: 20px; padding: 25px; 
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05); margin-bottom: 30px; position: relative;
+        .login-card {
+            background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1); padding: 50px;
+            border-radius: 30px; width: 100%; max-width: 450px; text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
         }
+        .login-card h2 { color: #fff; font-weight: 800; letter-spacing: -1px; }
+        .login-card p { color: #94a3b8; }
 
-        .btn-dl { position: absolute; top: 15px; right: 15px; z-index: 10; font-size: 11px; }
+        /* Dashboard Layout */
+        body { background-color: #f1f5f9; font-family: 'Inter', sans-serif; }
+        #sidebar { width: 300px; height: 100vh; position: fixed; background: var(--primary); color: white; padding: 30px; }
+        #content { margin-left: 300px; padding: 40px; transition: 0.3s; }
 
-        .nav-pills .nav-link.active { background: var(--accent); }
-
-        /* Níveis em Cards */
-        .nivel-box { padding: 10px; border-radius: 10px; color: white; text-align: center; font-size: 12px; font-weight: bold; flex: 1; margin: 2px; }
+        .glass-card { background: white; border-radius: 20px; padding: 25px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05); margin-bottom: 30px; position: relative; }
         
-        /* Comparativo */
-        .badge-up { background: #dcfce7; color: #166534; padding: 10px 20px; border-radius: 30px; font-weight: 800; }
-        .badge-down { background: #fee2e2; color: #991b1b; padding: 10px 20px; border-radius: 30px; font-weight: 800; }
+        /* Badges de Histórico */
+        .status-up { background: #dcfce7; color: #15803d; border: 1px solid #bbf7d0; }
+        .status-down { background: #fee2e2; color: #b91c1c; border: 1px solid #fecaca; }
+        .status-equal { background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; }
 
-        footer { border-top: 1px solid #e2e8f0; padding: 20px; text-align: center; font-size: 12px; color: #94a3b8; }
+        .nivel-label { font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 5px; }
+        .btn-png { position: absolute; top: 15px; right: 15px; font-size: 10px; }
     </style>
 </head>
 <body>
 
 <div id="login-overlay">
-    <div class="login-card shadow-lg">
-        <h3 class="fw-800 mb-4">Acesso SPAECE</h3>
-        <input type="text" id="inepInput" class="form-control mb-3" placeholder="Digite o INEP">
-        <button class="btn btn-primary w-100 fw-bold" onclick="login()">Entrar</button>
+    <div class="login-card animate__animated animate__fadeIn">
+        <div class="mb-4">
+            <i class="fas fa-shield-halved fa-4x text-accent mb-3"></i>
+            <h2>SPAECE <span class="text-accent">PRO</span></h2>
+            <p>SME Maracanaú - Inteligência Educacional</p>
+        </div>
+        <div class="form-group mb-4">
+            <input type="text" id="inepInput" class="form-control form-control-lg bg-dark text-white border-0 text-center" placeholder="Código INEP">
+        </div>
+        <button class="btn btn-accent btn-lg w-100 fw-bold shadow-lg" onclick="entrar()">
+            ACESSAR PAINEL
+        </button>
     </div>
 </div>
 
 <div id="app" style="display:none;">
     <aside id="sidebar">
-        <div class="text-center mb-5">
-            <h4 class="fw-800 mb-0 text-accent">V11.0 PRO</h4>
-            <small class="opacity-50 text-uppercase">Maracanaú Analytics</small>
+        <div class="mb-5">
+            <h5 class="fw-bold mb-0">Analytics V11.0</h5>
+            <div class="badge bg-accent">Enterprise Edition</div>
         </div>
         <div class="mb-4">
-            <label class="small fw-bold mb-2">ETAPA</label>
-            <select id="selEtapa" class="form-select bg-dark text-white border-0" onchange="updateComp()"></select>
+            <label class="small fw-bold text-white-50">ETAPA DE ENSINO</label>
+            <select id="selEtapa" class="form-select bg-dark text-white border-0 mt-2" onchange="popularComponentes()"></select>
         </div>
         <div class="mb-4">
-            <label class="small fw-bold mb-2">COMPONENTE</label>
-            <select id="selComp" class="form-select bg-dark text-white border-0" onchange="render()"></select>
+            <label class="small fw-bold text-white-50">COMPONENTE</label>
+            <select id="selComp" class="form-select bg-dark text-white border-0 mt-2" onchange="render()"></select>
         </div>
-        <button class="btn btn-outline-light btn-sm w-100 mt-5" onclick="location.reload()">Sair / Nova Consulta</button>
-        <button class="btn btn-danger w-100 mt-2 fw-bold" onclick="pdfTotal()"><i class="fas fa-file-pdf me-2"></i>PDF GERAL</button>
+        <hr class="opacity-25 my-5">
+        <button class="btn btn-danger w-100" onclick="location.reload()">NOVA CONSULTA</button>
     </aside>
 
     <main id="content">
-        <div id="print-zone">
-            <header class="mb-4">
-                <h2 id="hEscola" class="fw-800 text-primary mb-0">---</h2>
-                <p id="hInep" class="text-muted"></p>
-            </header>
+        <header class="mb-5 d-flex justify-content-between align-items-center">
+            <div>
+                <h2 id="hEscola" class="fw-800 text-primary mb-1">---</h2>
+                <span id="hInep" class="badge bg-secondary p-2">INEP: ---</span>
+            </div>
+            <button class="btn btn-success fw-bold" onclick="gerarPDF()">
+                <i class="fas fa-file-pdf me-2"></i>BAIXAR PDF COMPLETO
+            </button>
+        </header>
 
-            <ul class="nav nav-pills mb-4">
-                <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab1">Proficiência</button></li>
-                <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab2">Níveis de Desempenho</button></li>
-                <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab3">Evolução Histórica</button></li>
-            </ul>
+        <ul class="nav nav-pills mb-4 no-print" id="tabs">
+            <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab-prof">PROFICIÊNCIA</button></li>
+            <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-niveis">NÍVEIS (100%)</button></li>
+            <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#tab-hist">EVOLUÇÃO HISTÓRICA</button></li>
+        </ul>
 
+        <div id="print-area">
             <div class="tab-content">
-                <div class="tab-pane fade show active" id="tab1">
-                    <div class="glass-card" id="cardProf">
-                        <button class="btn btn-light btn-sm btn-dl no-print" onclick="dlPng('cardProf', 'Proficiencia')">PNG</button>
-                        <h5 class="fw-bold mb-4">Evolução da Proficiência Média</h5>
-                        <div style="height: 400px;"><canvas id="chartProf"></canvas></div>
+                <div class="tab-pane fade show active" id="tab-prof">
+                    <div class="glass-card">
+                        <h5 class="fw-bold mb-4">Série Histórica de Proficiência</h5>
+                        <div style="height:400px"><canvas id="chartProf"></canvas></div>
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="tab2">
-                    <div id="niveisGrid"></div>
+                <div class="tab-pane fade" id="tab-niveis">
+                    <div id="gridNiveis"></div>
                 </div>
 
-                <div class="tab-pane fade" id="tab3">
-                    <div id="compGrid"></div>
+                <div class="tab-pane fade" id="tab-hist">
+                    <div id="gridHistorico"></div>
                 </div>
             </div>
         </div>
-        <footer>&copy; 2026 SME Maracanaú - Inteligência de Dados Educacionais</footer>
     </main>
 </div>
 
 <script>
-let rawData = [];
-let db = [];
-let currentChartProf = null;
+let database = [];
+let chartInstance = null;
 
+// Carregar Dados
 async function load() {
     try {
-        const [r1, r2] = await Promise.all([
+        const [rS, rA] = await Promise.all([
             fetch('result_spaece.json').then(r => r.json()),
             fetch('result_alfa.json').then(r => r.json())
         ]);
-        db = [...r1, ...r2];
-    } catch(e) { iziToast.error({title:'Erro', message:'Falha nos arquivos JSON'}); }
+        database = [...rS, ...rA];
+    } catch(e) { iziToast.error({title:'Erro', message:'Falha ao carregar JSON.'}); }
 }
 
-function login() {
+function entrar() {
     const inep = document.getElementById('inepInput').value;
-    rawData = db.filter(d => String(d.INEP_ESC || d.INEP) === inep).sort((a,b) => a.EDICAO - b.EDICAO);
-    if(rawData.length > 0) {
+    const find = database.find(d => String(d.INEP_ESC || d.INEP) === inep);
+    if(find) {
         document.getElementById('login-overlay').style.display = 'none';
         document.getElementById('app').style.display = 'block';
-        init();
-    } else { iziToast.warning({title:'Erro', message:'INEP não encontrado'}); }
+        const etapas = [...new Set(database.filter(d => String(d.INEP_ESC || d.INEP) === inep).map(d => d.ETAPA))];
+        document.getElementById('selEtapa').innerHTML = etapas.map(e => `<option>${e}</option>`).join('');
+        popularComponentes();
+    } else { iziToast.warning({title:'Aviso', message:'INEP não localizado.'}); }
 }
 
-function init() {
-    const etapas = [...new Set(rawData.map(d => d.ETAPA))];
-    document.getElementById('selEtapa').innerHTML = etapas.map(e => `<option>${e}</option>`).join('');
-    updateComp();
-}
-
-function updateComp() {
-    const etp = document.getElementById('selEtapa').value;
-    const comps = [...new Set(rawData.filter(d => d.ETAPA === etp).map(d => d.COMPONENTE_CURRICULAR || d.DISCIPLINA))];
+function popularComponentes() {
+    const inep = document.getElementById('inepInput').value;
+    const etapa = document.getElementById('selEtapa').value;
+    const comps = [...new Set(database.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa).map(d => d.COMPONENTE_CURRICULAR || d.DISCIPLINA))];
     document.getElementById('selComp').innerHTML = comps.map(c => `<option>${c}</option>`).join('');
     render();
 }
 
-function render() {
-    const etp = document.getElementById('selEtapa').value;
-    const comp = document.getElementById('selComp').value;
-    const rows = rawData.filter(d => d.ETAPA === etp && (d.COMPONENTE_CURRICULAR === comp || d.DISCIPLINA === comp));
-
-    document.getElementById('hEscola').innerText = rows[0].ESCOLA || rows[0].NO_MUNICIPIO;
-    document.getElementById('hInep').innerText = `INEP: ${rows[0].INEP_ESC || rows[0].INEP} | ${etp}`;
-
-    renderTabProf(rows);
-    renderTabNiveis(rows, etp);
-    renderTabComp(rows);
+// Tratamento Numérico (Crucial para o JSON original)
+function parseVal(v) {
+    if(!v) return 0;
+    return Math.round(parseFloat(String(v).replace('%', '').replace(',', '.')) || 0);
 }
 
-function renderTabProf(rows) {
-    if(currentChartProf) currentChartProf.destroy();
+function render() {
+    const inep = document.getElementById('inepInput').value;
+    const etapa = document.getElementById('selEtapa').value;
+    const comp = document.getElementById('selComp').value;
+    const rows = database.filter(d => String(d.INEP_ESC || d.INEP) === inep && d.ETAPA === etapa && (d.COMPONENTE_CURRICULAR === comp || d.DISCIPLINA === comp))
+                         .sort((a,b) => a.EDICAO - b.EDICAO);
+
+    document.getElementById('hEscola').innerText = rows[0].ESCOLA || rows[0].NO_MUNICIPIO;
+    document.getElementById('hInep').innerText = `INEP: ${inep} | ${etapa}`;
+
+    renderProf(rows);
+    renderNiveis(rows, etapa);
+    renderHistorico(rows);
+}
+
+function renderProf(rows) {
+    if(chartInstance) chartInstance.destroy();
     const ctx = document.getElementById('chartProf').getContext('2d');
-    currentChartProf = new Chart(ctx, {
+    chartInstance = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: rows.map(r => r.EDICAO),
-            datasets: [
-                {
-                    label: 'Proficiência Média',
-                    data: rows.map(r => Math.round(r.PROFICIENCIA_MEDIA)),
-                    backgroundColor: 'rgba(99, 102, 241, 0.2)',
-                    borderColor: '#6366f1',
-                    borderWidth: 2,
-                    type: 'line',
-                    tension: 0.4,
-                    fill: true
-                },
-                {
-                    label: 'Pontos por Edição',
-                    data: rows.map(r => Math.round(r.PROFICIENCIA_MEDIA)),
-                    backgroundColor: '#6366f1',
-                    borderRadius: 10
-                }
-            ]
+            datasets: [{
+                label: 'Proficiência Média',
+                data: rows.map(r => parseVal(r.PROFICIENCIA_MEDIA)),
+                backgroundColor: '#4f46e5',
+                borderRadius: 8
+            }]
         },
-        options: { 
+        options: {
             maintainAspectRatio: false,
-            plugins: { datalabels: { anchor: 'end', align: 'top', font: {weight: 'bold'} } },
-            scales: { y: { beginAtZero: false } }
+            plugins: { datalabels: { anchor: 'end', align: 'top', font: {weight:'bold'} } }
         }
     });
 }
 
-function renderTabNiveis(rows, etp) {
-    const cont = document.getElementById('niveisGrid');
+function renderNiveis(rows, etapa) {
+    const cont = document.getElementById('gridNiveis');
     cont.innerHTML = '';
-    
-    rows.forEach((row, i) => {
-        const id = `chart-n-${i}`;
-        const cardId = `card-n-${i}`;
-        const isAlfa = etp.includes('2º');
-        
-        let labels = isAlfa ? ['Não Alfab.', 'Incompl.', 'Interm.', 'Sufic.', 'Desej.'] : ['M. Crítico', 'Crítico', 'Interm.', 'Adequado'];
-        let data = isAlfa ? 
-            [row.NAO_ALFABETIZADOS, row.ALFABETIZACAO_INCOMPLETA, row.INTERMEDIARIO, row.SUFICIENTE, row.DESEJAVEL] :
-            [row.MUITO_CRITICO, row.CRITICO, row.INTERMEDIARIO, row.ADEQUADO];
-        let cores = ['#ef4444', '#f97316', '#fbbf24', '#34d399', '#059669'];
+    const isAlfa = etapa.includes('2º');
 
-        let cardsHtml = data.map((v, idx) => `
-            <div class="nivel-box" style="background:${cores[idx]}">
-                ${labels[idx]}<br><span class="fs-5">${Math.round(v)}%</span>
-            </div>
-        `).join('');
+    rows.forEach((row, i) => {
+        const cardId = `card-nivel-${i}`;
+        const canvasId = `cn-${i}`;
+        
+        let labels, values, cores;
+        if(isAlfa) {
+            labels = ['Não Alfab.', 'Incompl.', 'Interm.', 'Sufic.', 'Desej.'];
+            values = [parseVal(row.NAO_ALFABETIZADOS), parseVal(row.ALFABETIZACAO_INCOMPLETA), parseVal(row.INTERMEDIARIO), parseVal(row.SUFICIENTE), parseVal(row.DESEJAVEL)];
+            cores = ['#ef4444', '#f97316', '#facc15', '#4ade80', '#166534'];
+        } else {
+            labels = ['M. Crítico', 'Crítico', 'Interm.', 'Adequado'];
+            values = [parseVal(row.MUITO_CRITICO), parseVal(row.CRITICO), parseVal(row.INTERMEDIARIO), parseVal(row.ADEQUADO)];
+            cores = ['#ef4444', '#facc15', '#4ade80', '#166534'];
+        }
 
         cont.innerHTML += `
             <div class="glass-card" id="${cardId}">
-                <button class="btn btn-light btn-sm btn-dl no-print" onclick="dlPng('${cardId}', 'Niveis_${row.EDICAO}')">PNG</button>
-                <h5 class="fw-bold mb-3">Distribuição de Níveis - Edição ${row.EDICAO}</h5>
-                <div class="d-flex mb-4">${cardsHtml}</div>
-                <div style="height: 120px;"><canvas id="${id}"></canvas></div>
+                <button class="btn btn-light btn-sm btn-png no-print" onclick="baixarPNG('${cardId}', 'Nivel_${row.EDICAO}')">PNG</button>
+                <h6 class="fw-bold mb-3">Edição ${row.EDICAO} - Distribuição Acumulada (%)</h6>
+                <div style="height: 100px;"><canvas id="${canvasId}"></canvas></div>
             </div>`;
 
         setTimeout(() => {
-            new Chart(document.getElementById(id), {
+            new Chart(document.getElementById(canvasId), {
                 type: 'bar',
                 data: {
                     labels: [''],
-                    datasets: data.map((v, idx) => ({
-                        label: labels[idx],
-                        data: [Math.round(v)],
-                        backgroundColor: cores[idx]
+                    datasets: labels.map((l, idx) => ({
+                        label: l,
+                        data: [values[idx]],
+                        backgroundColor: cores[idx],
+                        barThickness: 50
                     }))
                 },
                 options: {
                     indexAxis: 'y',
                     maintainAspectRatio: false,
-                    plugins: { legend: { display: false }, datalabels: { color: '#fff', font: {weight:'bold'} } },
-                    scales: { x: { stacked: true, display: false }, y: { stacked: true, display: false } }
+                    plugins: { 
+                        legend: { position: 'bottom', labels: { boxWidth: 12, font: {size: 10} } },
+                        datalabels: { color: '#000', font: {weight:'bold'}, formatter: v => v > 0 ? v+'%' : '' }
+                    },
+                    scales: { 
+                        x: { stacked: true, display: false, max: 100 }, 
+                        y: { stacked: true, display: false } 
+                    }
                 }
             });
         }, 100);
     });
 }
 
-function renderTabComp(rows) {
-    const cont = document.getElementById('compGrid');
-    cont.innerHTML = '';
+function renderHistorico(rows) {
+    const cont = document.getElementById('gridHistorico');
+    cont.innerHTML = '<h5 class="fw-bold mb-4">Comparativo Evolutivo entre Edições</h5>';
     
     for(let i = 1; i < rows.length; i++) {
-        const at = rows[i], an = rows[i-1];
-        const diff = Math.round(at.PROFICIENCIA_MEDIA - an.PROFICIENCIA_MEDIA);
-        const cor = diff >= 0 ? 'badge-up' : 'badge-down';
-        const icon = diff >= 0 ? 'fa-arrow-trend-up' : 'fa-arrow-trend-down';
+        const atual = parseVal(rows[i].PROFICIENCIA_MEDIA);
+        const anterior = parseVal(rows[i-1].PROFICIENCIA_MEDIA);
+        const diff = atual - anterior;
+        
+        let statusClass = diff > 0 ? 'status-up' : diff < 0 ? 'status-down' : 'status-equal';
+        let statusTxt = diff > 0 ? 'CRESCIMENTO' : diff < 0 ? 'QUEDA' : 'ESTAGNAÇÃO';
+        let icon = diff > 0 ? 'fa-arrow-up' : diff < 0 ? 'fa-arrow-down' : 'fa-equals';
 
         cont.innerHTML += `
-            <div class="glass-card animate__animated animate__fadeIn">
+            <div class="glass-card p-4 animate__animated animate__fadeIn">
                 <div class="row align-items-center">
-                    <div class="col-md-4 text-center border-end">
-                        <small class="text-muted fw-bold">COMPARAÇÃO</small>
-                        <h4 class="fw-800">${an.EDICAO} <i class="fas fa-arrow-right mx-2 text-muted"></i> ${at.EDICAO}</h4>
+                    <div class="col-md-3">
+                        <small class="text-muted d-block">PERÍODO</small>
+                        <span class="fw-bold">${rows[i-1].EDICAO} <i class="fas fa-long-arrow-right mx-2 text-muted"></i> ${rows[i].EDICAO}</span>
                     </div>
-                    <div class="col-md-4 text-center border-end">
-                        <div class="${cor} d-inline-block">
-                            <i class="fas ${icon} me-2"></i> ${diff > 0 ? '+' : ''}${diff} PONTOS
+                    <div class="col-md-3 text-center">
+                        <small class="text-muted d-block">VARIAÇÃO</small>
+                        <span class="fs-4 fw-800">${diff > 0 ? '+' : ''}${diff} pts</span>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <div class="d-inline-flex align-items-center ${statusClass} p-3 rounded-pill fw-800">
+                            <i class="fas ${icon} me-2"></i> ${statusTxt}
                         </div>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <small class="text-muted d-block">STATUS</small>
-                        <span class="fw-800 fs-5">${diff >= 0 ? 'CRESCIMENTO' : 'QUEDA'}</span>
                     </div>
                 </div>
             </div>`;
     }
 }
 
-async function dlPng(id, nome) {
+async function baixarPNG(id, nome) {
     const canvas = await html2canvas(document.getElementById(id), { scale: 2 });
     const link = document.createElement('a');
     link.download = `${nome}.png`;
@@ -291,12 +302,11 @@ async function dlPng(id, nome) {
     link.click();
 }
 
-async function pdfTotal() {
-    iziToast.info({title:'PDF', message:'Gerando relatório completo...'});
-    const canvas = await html2canvas(document.getElementById('print-zone'), { scale: 2 });
+async function gerarPDF() {
+    const canvas = await html2canvas(document.getElementById('print-area'), { scale: 2 });
     const doc = new jspdf.jsPDF('p', 'mm', 'a4');
     doc.addImage(canvas.toDataURL('image/png'), 'PNG', 10, 10, 190, (canvas.height * 190) / canvas.width);
-    doc.save('Relatorio_SPAECE_V11.pdf');
+    doc.save('Relatorio_SPAECE.pdf');
 }
 
 window.onload = load;
