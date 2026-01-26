@@ -30,19 +30,19 @@
         #login-overlay { position: fixed; inset: 0; z-index: 9999; background: #cbd5e1; display: flex; align-items: center; justify-content: center; }
         .login-card { background: white; padding: 40px; border-radius: 24px; width: 400px; text-align: center; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); color: #0f172a; }
 
-        /* SIDEBAR RETRÁTIL */
-        #sidebar { width: var(--sidebar-w); height: 100vh; position: fixed; background: var(--primary); color: white; transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1); z-index: 1000; left: 0; padding: 20px; overflow-y: auto; }
-        #sidebar.collapsed { left: calc(var(--sidebar-w) * -1); }
-        #content { margin-left: var(--sidebar-w); transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1); padding: 40px; min-height: 100vh; position: relative; padding-bottom: 80px; }
+        /* AJUSTE SIDEBAR RETRÁTIL */
+        #sidebar { width: var(--sidebar-w); height: 100vh; position: fixed; top:0; left: 0; background: var(--primary); color: white; transition: transform 0.3s ease; z-index: 1000; padding: 20px; }
+        #sidebar.collapsed { transform: translateX(-100%); }
+        
+        #content { margin-left: var(--sidebar-w); transition: margin-left 0.3s ease; padding: 40px; min-height: 100vh; position: relative; padding-bottom: 80px; }
         #content.expanded { margin-left: 0; }
 
-        .btn-toggle { position: fixed; left: 15px; top: 15px; z-index: 1100; background: var(--primary); color: white; border: none; border-radius: 8px; width: 40px; height: 40px; display: none; align-items: center; justify-content: center; transition: 0.3s; }
+        .btn-toggle { position: fixed; left: 15px; top: 15px; z-index: 1100; background: var(--primary); color: white; border: none; border-radius: 8px; width: 45px; height: 45px; display: none; align-items: center; justify-content: center; cursor: pointer; }
         #app:not([style*="display:none"]) .btn-toggle { display: flex; }
 
         .glass-card { background: white; border-radius: 20px; padding: 25px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); margin-bottom: 25px; border: 1px solid #e2e8f0; position: relative; }
         
-        /* BOTÃO PNG PARA GRÁFICOS */
-        .btn-png { position: absolute; top: 15px; right: 15px; font-size: 11px; font-weight: 800; z-index: 10; padding: 5px 12px; border-radius: 8px; border: 1px solid #e2e8f0; background: white; color: #4f46e5; transition: 0.2s; }
+        .btn-png { position: absolute; top: 15px; right: 15px; font-size: 11px; font-weight: 800; z-index: 10; padding: 5px 12px; border-radius: 8px; border: 1px solid #e2e8f0; background: white; color: #4f46e5; cursor: pointer; }
         .btn-png:hover { background: #4f46e5; color: white; }
         
         .card-critico { background-color: #ef4444; color: white; }
@@ -157,9 +157,11 @@ async function load() {
 }
 
 function toggleMenu() { 
-    document.getElementById('sidebar').classList.toggle('collapsed'); 
-    document.getElementById('content').classList.toggle('expanded');
-    setTimeout(() => { if(chartP) chartP.resize(); if(chartI) chartI.resize(); }, 400);
+    const side = document.getElementById('sidebar');
+    const main = document.getElementById('content');
+    side.classList.toggle('collapsed');
+    main.classList.toggle('expanded');
+    setTimeout(() => { if(chartP) chartP.resize(); if(chartI) chartI.resize(); }, 350);
 }
 
 function entrar() {
