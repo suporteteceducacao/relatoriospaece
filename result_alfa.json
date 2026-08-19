@@ -1,6 +1,6 @@
 [
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -14,11 +14,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "14.9",
     "AVANCADO": "85.1",
-    "IDE_Alfa": "7.8",
+    "IDE": "7.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -32,11 +32,11 @@
     "BASICO": "11.4",
     "PROFICIENTE": "48.6",
     "AVANCADO": "37.1",
-    "IDE_Alfa": "5.4",
+    "IDE": "5.4",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -50,11 +50,11 @@
     "BASICO": "23.1",
     "PROFICIENTE": "47.3",
     "AVANCADO": "23.1",
-    "IDE_Alfa": "4.2",
+    "IDE": "4.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -68,11 +68,11 @@
     "BASICO": "0.9",
     "PROFICIENTE": "20.5",
     "AVANCADO": "78.6",
-    "IDE_Alfa": "7.7",
+    "IDE": "7.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -86,11 +86,11 @@
     "BASICO": "15.9",
     "PROFICIENTE": "43.2",
     "AVANCADO": "40.9",
-    "IDE_Alfa": "5.7",
+    "IDE": "5.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -104,11 +104,11 @@
     "BASICO": "19.8",
     "PROFICIENTE": "37.5",
     "AVANCADO": "39.6",
-    "IDE_Alfa": "5.3",
+    "IDE": "5.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -122,11 +122,11 @@
     "BASICO": "24.3",
     "PROFICIENTE": "55.0",
     "AVANCADO": "18.9",
-    "IDE_Alfa": "4.3",
+    "IDE": "4.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -140,11 +140,11 @@
     "BASICO": "17.7",
     "PROFICIENTE": "50.6",
     "AVANCADO": "29.1",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -158,11 +158,11 @@
     "BASICO": "4.3",
     "PROFICIENTE": "46.8",
     "AVANCADO": "46.8",
-    "IDE_Alfa": "6.0",
+    "IDE": "6.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -176,11 +176,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "12.5",
     "AVANCADO": "87.5",
-    "IDE_Alfa": "8.2",
+    "IDE": "8.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -194,11 +194,11 @@
     "BASICO": "4.2",
     "PROFICIENTE": "2.1",
     "AVANCADO": "93.8",
-    "IDE_Alfa": "8.5",
+    "IDE": "8.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -212,11 +212,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "8.7",
     "AVANCADO": "91.3",
-    "IDE_Alfa": "8.3",
+    "IDE": "8.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -230,11 +230,11 @@
     "BASICO": "29.4",
     "PROFICIENTE": "55.9",
     "AVANCADO": "2.9",
-    "IDE_Alfa": "3.2",
+    "IDE": "3.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -248,11 +248,11 @@
     "BASICO": "4.4",
     "PROFICIENTE": "80.0",
     "AVANCADO": "15.6",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -266,11 +266,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "35.7",
     "AVANCADO": "64.3",
-    "IDE_Alfa": "7.0",
+    "IDE": "7.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -284,11 +284,11 @@
     "BASICO": "1.1",
     "PROFICIENTE": "14.9",
     "AVANCADO": "84.0",
-    "IDE_Alfa": "8.1",
+    "IDE": "8.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -302,11 +302,11 @@
     "BASICO": "20.3",
     "PROFICIENTE": "37.3",
     "AVANCADO": "39.0",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -320,11 +320,11 @@
     "BASICO": "4.2",
     "PROFICIENTE": "8.5",
     "AVANCADO": "87.3",
-    "IDE_Alfa": "8.2",
+    "IDE": "8.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -338,11 +338,11 @@
     "BASICO": "2.1",
     "PROFICIENTE": "0.0",
     "AVANCADO": "97.9",
-    "IDE_Alfa": "9.0",
+    "IDE": "9.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -356,11 +356,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "11.1",
     "AVANCADO": "88.9",
-    "IDE_Alfa": "8.4",
+    "IDE": "8.4",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -374,11 +374,11 @@
     "BASICO": "3.0",
     "PROFICIENTE": "29.0",
     "AVANCADO": "66.0",
-    "IDE_Alfa": "6.9",
+    "IDE": "6.9",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -392,11 +392,11 @@
     "BASICO": "12.0",
     "PROFICIENTE": "34.0",
     "AVANCADO": "52.0",
-    "IDE_Alfa": "6.0",
+    "IDE": "6.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -410,11 +410,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "26.9",
     "AVANCADO": "73.1",
-    "IDE_Alfa": "7.5",
+    "IDE": "7.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -428,11 +428,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "4.4",
     "AVANCADO": "95.6",
-    "IDE_Alfa": "8.9",
+    "IDE": "8.9",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -446,11 +446,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "10.9",
     "AVANCADO": "89.1",
-    "IDE_Alfa": "8.8",
+    "IDE": "8.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -464,11 +464,11 @@
     "BASICO": "36.8",
     "PROFICIENTE": "47.4",
     "AVANCADO": "5.3",
-    "IDE_Alfa": "3.1",
+    "IDE": "3.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -482,11 +482,11 @@
     "BASICO": "7.7",
     "PROFICIENTE": "53.8",
     "AVANCADO": "38.5",
-    "IDE_Alfa": "5.9",
+    "IDE": "5.9",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -500,11 +500,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "2.6",
     "AVANCADO": "97.4",
-    "IDE_Alfa": "8.8",
+    "IDE": "8.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -518,11 +518,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "5.7",
     "AVANCADO": "94.3",
-    "IDE_Alfa": "8.9",
+    "IDE": "8.9",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -536,11 +536,11 @@
     "BASICO": "4.3",
     "PROFICIENTE": "30.4",
     "AVANCADO": "60.9",
-    "IDE_Alfa": "6.4",
+    "IDE": "6.4",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -554,11 +554,11 @@
     "BASICO": "21.3",
     "PROFICIENTE": "57.4",
     "AVANCADO": "19.1",
-    "IDE_Alfa": "4.5",
+    "IDE": "4.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -572,11 +572,11 @@
     "BASICO": "3.8",
     "PROFICIENTE": "46.2",
     "AVANCADO": "50.0",
-    "IDE_Alfa": "6.2",
+    "IDE": "6.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -590,11 +590,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "8.0",
     "AVANCADO": "92.0",
-    "IDE_Alfa": "8.8",
+    "IDE": "8.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -608,11 +608,11 @@
     "BASICO": "40.0",
     "PROFICIENTE": "40.0",
     "AVANCADO": "20.0",
-    "IDE_Alfa": "3.9",
+    "IDE": "3.9",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -626,11 +626,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "42.5",
     "AVANCADO": "57.5",
-    "IDE_Alfa": "7.0",
+    "IDE": "7.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -644,11 +644,11 @@
     "BASICO": "8.2",
     "PROFICIENTE": "42.9",
     "AVANCADO": "49.0",
-    "IDE_Alfa": "6.3",
+    "IDE": "6.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -662,11 +662,11 @@
     "BASICO": "4.0",
     "PROFICIENTE": "60.0",
     "AVANCADO": "32.0",
-    "IDE_Alfa": "5.4",
+    "IDE": "5.4",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -680,11 +680,11 @@
     "BASICO": "18.4",
     "PROFICIENTE": "52.6",
     "AVANCADO": "28.9",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -698,11 +698,11 @@
     "BASICO": "4.3",
     "PROFICIENTE": "38.6",
     "AVANCADO": "55.7",
-    "IDE_Alfa": "6.4",
+    "IDE": "6.4",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -716,11 +716,11 @@
     "BASICO": "10.0",
     "PROFICIENTE": "55.0",
     "AVANCADO": "30.0",
-    "IDE_Alfa": "5.0",
+    "IDE": "5.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -734,11 +734,11 @@
     "BASICO": "10.4",
     "PROFICIENTE": "38.8",
     "AVANCADO": "49.3",
-    "IDE_Alfa": "6.0",
+    "IDE": "6.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -752,11 +752,11 @@
     "BASICO": "7.1",
     "PROFICIENTE": "28.6",
     "AVANCADO": "62.5",
-    "IDE_Alfa": "6.7",
+    "IDE": "6.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -770,11 +770,11 @@
     "BASICO": "17.5",
     "PROFICIENTE": "58.7",
     "AVANCADO": "22.2",
-    "IDE_Alfa": "4.7",
+    "IDE": "4.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -788,11 +788,11 @@
     "BASICO": "2.7",
     "PROFICIENTE": "34.5",
     "AVANCADO": "60.9",
-    "IDE_Alfa": "6.7",
+    "IDE": "6.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -806,11 +806,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "14.6",
     "AVANCADO": "82.9",
-    "IDE_Alfa": "8.1",
+    "IDE": "8.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -824,11 +824,11 @@
     "BASICO": "7.6",
     "PROFICIENTE": "44.5",
     "AVANCADO": "47.9",
-    "IDE_Alfa": "6.2",
+    "IDE": "6.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -842,11 +842,11 @@
     "BASICO": "15.9",
     "PROFICIENTE": "47.0",
     "AVANCADO": "34.1",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -860,11 +860,11 @@
     "BASICO": "6.7",
     "PROFICIENTE": "0.0",
     "AVANCADO": "93.3",
-    "IDE_Alfa": "9.0",
+    "IDE": "9.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -878,11 +878,11 @@
     "BASICO": "21.7",
     "PROFICIENTE": "62.3",
     "AVANCADO": "14.2",
-    "IDE_Alfa": "4.3",
+    "IDE": "4.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -896,11 +896,11 @@
     "BASICO": "42.3",
     "PROFICIENTE": "38.0",
     "AVANCADO": "9.9",
-    "IDE_Alfa": "3.1",
+    "IDE": "3.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -914,11 +914,11 @@
     "BASICO": "5.4",
     "PROFICIENTE": "18.9",
     "AVANCADO": "75.7",
-    "IDE_Alfa": "7.6",
+    "IDE": "7.6",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -932,11 +932,11 @@
     "BASICO": "2.4",
     "PROFICIENTE": "8.2",
     "AVANCADO": "89.4",
-    "IDE_Alfa": "8.0",
+    "IDE": "8.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -950,11 +950,11 @@
     "BASICO": "6.8",
     "PROFICIENTE": "65.9",
     "AVANCADO": "27.3",
-    "IDE_Alfa": "5.5",
+    "IDE": "5.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -968,11 +968,11 @@
     "BASICO": "2.7",
     "PROFICIENTE": "29.7",
     "AVANCADO": "67.6",
-    "IDE_Alfa": "7.2",
+    "IDE": "7.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -986,11 +986,11 @@
     "BASICO": "17.6",
     "PROFICIENTE": "40.0",
     "AVANCADO": "37.0",
-    "IDE_Alfa": "5.0",
+    "IDE": "5.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1004,11 +1004,11 @@
     "BASICO": "3.7",
     "PROFICIENTE": "25.9",
     "AVANCADO": "70.4",
-    "IDE_Alfa": "7.3",
+    "IDE": "7.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1022,11 +1022,11 @@
     "BASICO": "18.6",
     "PROFICIENTE": "42.9",
     "AVANCADO": "35.7",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1040,11 +1040,11 @@
     "BASICO": "17.4",
     "PROFICIENTE": "48.6",
     "AVANCADO": "33.0",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1058,11 +1058,11 @@
     "BASICO": "15.7",
     "PROFICIENTE": "44.6",
     "AVANCADO": "36.1",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1076,11 +1076,11 @@
     "BASICO": "5.0",
     "PROFICIENTE": "40.0",
     "AVANCADO": "55.0",
-    "IDE_Alfa": "6.3",
+    "IDE": "6.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1094,11 +1094,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "14.6",
     "AVANCADO": "85.4",
-    "IDE_Alfa": "8.0",
+    "IDE": "8.0",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1112,11 +1112,11 @@
     "BASICO": "6.5",
     "PROFICIENTE": "45.2",
     "AVANCADO": "46.8",
-    "IDE_Alfa": "5.8",
+    "IDE": "5.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1130,11 +1130,11 @@
     "BASICO": "10.0",
     "PROFICIENTE": "63.3",
     "AVANCADO": "26.7",
-    "IDE_Alfa": "5.3",
+    "IDE": "5.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1148,11 +1148,11 @@
     "BASICO": "22.9",
     "PROFICIENTE": "43.8",
     "AVANCADO": "29.2",
-    "IDE_Alfa": "4.5",
+    "IDE": "4.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1166,11 +1166,11 @@
     "BASICO": "8.0",
     "PROFICIENTE": "56.0",
     "AVANCADO": "36.0",
-    "IDE_Alfa": "5.7",
+    "IDE": "5.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1184,11 +1184,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "16.7",
     "AVANCADO": "83.3",
-    "IDE_Alfa": "7.8",
+    "IDE": "7.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1202,11 +1202,11 @@
     "BASICO": "11.6",
     "PROFICIENTE": "46.3",
     "AVANCADO": "38.9",
-    "IDE_Alfa": "5.5",
+    "IDE": "5.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1220,11 +1220,11 @@
     "BASICO": "17.2",
     "PROFICIENTE": "56.3",
     "AVANCADO": "23.4",
-    "IDE_Alfa": "4.7",
+    "IDE": "4.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1238,11 +1238,11 @@
     "BASICO": "1.1",
     "PROFICIENTE": "16.7",
     "AVANCADO": "81.1",
-    "IDE_Alfa": "7.7",
+    "IDE": "7.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1256,11 +1256,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "5.2",
     "AVANCADO": "94.8",
-    "IDE_Alfa": "8.2",
+    "IDE": "8.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1274,11 +1274,11 @@
     "BASICO": "8.0",
     "PROFICIENTE": "48.0",
     "AVANCADO": "36.0",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1292,11 +1292,11 @@
     "BASICO": "16.1",
     "PROFICIENTE": "49.5",
     "AVANCADO": "34.4",
-    "IDE_Alfa": "5.5",
+    "IDE": "5.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1310,11 +1310,11 @@
     "BASICO": "4.3",
     "PROFICIENTE": "29.8",
     "AVANCADO": "66.0",
-    "IDE_Alfa": "6.9",
+    "IDE": "6.9",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1328,11 +1328,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "28.6",
     "AVANCADO": "71.4",
-    "IDE_Alfa": "7.7",
+    "IDE": "7.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1346,11 +1346,11 @@
     "BASICO": "3.4",
     "PROFICIENTE": "32.8",
     "AVANCADO": "62.1",
-    "IDE_Alfa": "6.4",
+    "IDE": "6.4",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1364,11 +1364,11 @@
     "BASICO": "20.0",
     "PROFICIENTE": "60.0",
     "AVANCADO": "17.8",
-    "IDE_Alfa": "4.5",
+    "IDE": "4.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1382,11 +1382,11 @@
     "BASICO": "25.0",
     "PROFICIENTE": "50.0",
     "AVANCADO": "25.0",
-    "IDE_Alfa": "4.7",
+    "IDE": "4.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1400,11 +1400,11 @@
     "BASICO": "18.8",
     "PROFICIENTE": "50.0",
     "AVANCADO": "31.3",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1418,11 +1418,11 @@
     "BASICO": "5.4",
     "PROFICIENTE": "32.4",
     "AVANCADO": "59.5",
-    "IDE_Alfa": "6.3",
+    "IDE": "6.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1436,11 +1436,11 @@
     "BASICO": "22.9",
     "PROFICIENTE": "24.1",
     "AVANCADO": "48.2",
-    "IDE_Alfa": "5.3",
+    "IDE": "5.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1454,11 +1454,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "47.6",
     "AVANCADO": "52.4",
-    "IDE_Alfa": "6.8",
+    "IDE": "6.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1472,11 +1472,11 @@
     "BASICO": "13.6",
     "PROFICIENTE": "50.0",
     "AVANCADO": "36.4",
-    "IDE_Alfa": "5.5",
+    "IDE": "5.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1490,11 +1490,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "0.0",
     "AVANCADO": "100.0",
-    "IDE_Alfa": "9.2",
+    "IDE": "9.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1508,11 +1508,11 @@
     "BASICO": "16.7",
     "PROFICIENTE": "50.0",
     "AVANCADO": "25.0",
-    "IDE_Alfa": "4.5",
+    "IDE": "4.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1526,11 +1526,11 @@
     "BASICO": "17.1",
     "PROFICIENTE": "51.4",
     "AVANCADO": "28.6",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1544,11 +1544,11 @@
     "BASICO": "2.6",
     "PROFICIENTE": "2.6",
     "AVANCADO": "94.9",
-    "IDE_Alfa": "8.3",
+    "IDE": "8.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1562,11 +1562,11 @@
     "BASICO": "22.2",
     "PROFICIENTE": "55.6",
     "AVANCADO": "22.2",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1580,11 +1580,11 @@
     "BASICO": "1.6",
     "PROFICIENTE": "9.5",
     "AVANCADO": "88.9",
-    "IDE_Alfa": "8.5",
+    "IDE": "8.5",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1598,11 +1598,11 @@
     "BASICO": "22.3",
     "PROFICIENTE": "50.0",
     "AVANCADO": "22.3",
-    "IDE_Alfa": "4.3",
+    "IDE": "4.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1616,11 +1616,11 @@
     "BASICO": "22.2",
     "PROFICIENTE": "53.3",
     "AVANCADO": "24.4",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1634,11 +1634,11 @@
     "BASICO": "38.4",
     "PROFICIENTE": "39.7",
     "AVANCADO": "12.3",
-    "IDE_Alfa": "3.3",
+    "IDE": "3.3",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1652,11 +1652,11 @@
     "BASICO": "15.4",
     "PROFICIENTE": "50.8",
     "AVANCADO": "33.8",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1670,11 +1670,11 @@
     "BASICO": "8.4",
     "PROFICIENTE": "51.6",
     "AVANCADO": "38.9",
-    "IDE_Alfa": "5.8",
+    "IDE": "5.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1688,11 +1688,11 @@
     "BASICO": "28.9",
     "PROFICIENTE": "42.2",
     "AVANCADO": "28.9",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1706,11 +1706,11 @@
     "BASICO": "23.2",
     "PROFICIENTE": "43.9",
     "AVANCADO": "31.0",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1724,11 +1724,11 @@
     "BASICO": "18.5",
     "PROFICIENTE": "55.6",
     "AVANCADO": "24.7",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1742,11 +1742,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "0.0",
     "AVANCADO": "100.0",
-    "IDE_Alfa": "8.6",
+    "IDE": "8.6",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1760,11 +1760,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "44.4",
     "AVANCADO": "55.6",
-    "IDE_Alfa": "6.4",
+    "IDE": "6.4",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1778,11 +1778,11 @@
     "BASICO": "25.7",
     "PROFICIENTE": "62.4",
     "AVANCADO": "9.9",
-    "IDE_Alfa": "4.1",
+    "IDE": "4.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1796,11 +1796,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "14.6",
     "AVANCADO": "85.4",
-    "IDE_Alfa": "8.1",
+    "IDE": "8.1",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1814,11 +1814,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "45.8",
     "AVANCADO": "54.2",
-    "IDE_Alfa": "6.8",
+    "IDE": "6.8",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1832,11 +1832,11 @@
     "BASICO": "3.4",
     "PROFICIENTE": "20.5",
     "AVANCADO": "76.1",
-    "IDE_Alfa": "7.7",
+    "IDE": "7.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1850,11 +1850,11 @@
     "BASICO": "28.6",
     "PROFICIENTE": "21.4",
     "AVANCADO": "2.4",
-    "IDE_Alfa": "2.8",
+    "IDE": "2.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1868,11 +1868,11 @@
     "BASICO": "33.6",
     "PROFICIENTE": "25.2",
     "AVANCADO": "11.8",
-    "IDE_Alfa": "3.9",
+    "IDE": "3.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1886,11 +1886,11 @@
     "BASICO": "25.0",
     "PROFICIENTE": "16.7",
     "AVANCADO": "12.5",
-    "IDE_Alfa": "3.3",
+    "IDE": "3.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1904,11 +1904,11 @@
     "BASICO": "16.7",
     "PROFICIENTE": "24.0",
     "AVANCADO": "39.6",
-    "IDE_Alfa": "6.0",
+    "IDE": "6.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1922,11 +1922,11 @@
     "BASICO": "25.6",
     "PROFICIENTE": "23.3",
     "AVANCADO": "18.6",
-    "IDE_Alfa": "4.1",
+    "IDE": "4.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1940,11 +1940,11 @@
     "BASICO": "23.4",
     "PROFICIENTE": "25.8",
     "AVANCADO": "17.7",
-    "IDE_Alfa": "4.2",
+    "IDE": "4.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1958,11 +1958,11 @@
     "BASICO": "24.8",
     "PROFICIENTE": "20.2",
     "AVANCADO": "12.8",
-    "IDE_Alfa": "3.4",
+    "IDE": "3.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1976,11 +1976,11 @@
     "BASICO": "29.7",
     "PROFICIENTE": "31.7",
     "AVANCADO": "7.9",
-    "IDE_Alfa": "3.9",
+    "IDE": "3.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -1994,11 +1994,11 @@
     "BASICO": "32.9",
     "PROFICIENTE": "27.4",
     "AVANCADO": "6.8",
-    "IDE_Alfa": "3.7",
+    "IDE": "3.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2012,11 +2012,11 @@
     "BASICO": "29.5",
     "PROFICIENTE": "25.0",
     "AVANCADO": "38.6",
-    "IDE_Alfa": "6.5",
+    "IDE": "6.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2030,11 +2030,11 @@
     "BASICO": "33.3",
     "PROFICIENTE": "42.9",
     "AVANCADO": "14.3",
-    "IDE_Alfa": "5.3",
+    "IDE": "5.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2048,11 +2048,11 @@
     "BASICO": "26.5",
     "PROFICIENTE": "28.6",
     "AVANCADO": "12.2",
-    "IDE_Alfa": "3.9",
+    "IDE": "3.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2066,11 +2066,11 @@
     "BASICO": "45.5",
     "PROFICIENTE": "12.1",
     "AVANCADO": "12.1",
-    "IDE_Alfa": "3.5",
+    "IDE": "3.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2084,11 +2084,11 @@
     "BASICO": "24.1",
     "PROFICIENTE": "27.7",
     "AVANCADO": "15.7",
-    "IDE_Alfa": "4.1",
+    "IDE": "4.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2102,11 +2102,11 @@
     "BASICO": "8.7",
     "PROFICIENTE": "34.8",
     "AVANCADO": "13.0",
-    "IDE_Alfa": "3.6",
+    "IDE": "3.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2120,11 +2120,11 @@
     "BASICO": "31.8",
     "PROFICIENTE": "24.7",
     "AVANCADO": "9.4",
-    "IDE_Alfa": "3.6",
+    "IDE": "3.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2138,11 +2138,11 @@
     "BASICO": "25.0",
     "PROFICIENTE": "30.6",
     "AVANCADO": "8.3",
-    "IDE_Alfa": "3.6",
+    "IDE": "3.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2156,11 +2156,11 @@
     "BASICO": "21.5",
     "PROFICIENTE": "24.6",
     "AVANCADO": "33.8",
-    "IDE_Alfa": "5.7",
+    "IDE": "5.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2174,11 +2174,11 @@
     "BASICO": "4.9",
     "PROFICIENTE": "18.0",
     "AVANCADO": "77.0",
-    "IDE_Alfa": "9.3",
+    "IDE": "9.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2192,11 +2192,11 @@
     "BASICO": "33.3",
     "PROFICIENTE": "29.6",
     "AVANCADO": "3.7",
-    "IDE_Alfa": "3.6",
+    "IDE": "3.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2210,11 +2210,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "15.0",
     "AVANCADO": "85.0",
-    "IDE_Alfa": "9.6",
+    "IDE": "9.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2228,11 +2228,11 @@
     "BASICO": "30.0",
     "PROFICIENTE": "16.0",
     "AVANCADO": "12.0",
-    "IDE_Alfa": "3.4",
+    "IDE": "3.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2246,11 +2246,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "0.0",
     "AVANCADO": "100.0",
-    "IDE_Alfa": "10.0",
+    "IDE": "10.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2264,11 +2264,11 @@
     "BASICO": "33.3",
     "PROFICIENTE": "36.1",
     "AVANCADO": "16.7",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2282,11 +2282,11 @@
     "BASICO": "21.5",
     "PROFICIENTE": "36.9",
     "AVANCADO": "41.5",
-    "IDE_Alfa": "7.6",
+    "IDE": "7.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2300,11 +2300,11 @@
     "BASICO": "12.9",
     "PROFICIENTE": "22.6",
     "AVANCADO": "3.2",
-    "IDE_Alfa": "2.4",
+    "IDE": "2.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2318,11 +2318,11 @@
     "BASICO": "22.2",
     "PROFICIENTE": "11.1",
     "AVANCADO": "7.4",
-    "IDE_Alfa": "2.3",
+    "IDE": "2.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2336,11 +2336,11 @@
     "BASICO": "16.7",
     "PROFICIENTE": "20.0",
     "AVANCADO": "3.3",
-    "IDE_Alfa": "2.5",
+    "IDE": "2.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2354,11 +2354,11 @@
     "BASICO": "3.5",
     "PROFICIENTE": "36.8",
     "AVANCADO": "54.4",
-    "IDE_Alfa": "8.4",
+    "IDE": "8.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2372,11 +2372,11 @@
     "BASICO": "16.7",
     "PROFICIENTE": "22.2",
     "AVANCADO": "11.1",
-    "IDE_Alfa": "3.2",
+    "IDE": "3.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2390,11 +2390,11 @@
     "BASICO": "21.2",
     "PROFICIENTE": "19.7",
     "AVANCADO": "30.3",
-    "IDE_Alfa": "5.0",
+    "IDE": "5.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2408,11 +2408,11 @@
     "BASICO": "25.0",
     "PROFICIENTE": "54.2",
     "AVANCADO": "16.7",
-    "IDE_Alfa": "6.1",
+    "IDE": "6.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2426,11 +2426,11 @@
     "BASICO": "33.3",
     "PROFICIENTE": "17.9",
     "AVANCADO": "23.1",
-    "IDE_Alfa": "4.5",
+    "IDE": "4.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2444,11 +2444,11 @@
     "BASICO": "37.5",
     "PROFICIENTE": "50.0",
     "AVANCADO": "12.5",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2462,11 +2462,11 @@
     "BASICO": "31.5",
     "PROFICIENTE": "20.4",
     "AVANCADO": "9.3",
-    "IDE_Alfa": "3.5",
+    "IDE": "3.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2480,11 +2480,11 @@
     "BASICO": "12.5",
     "PROFICIENTE": "35.0",
     "AVANCADO": "27.5",
-    "IDE_Alfa": "5.4",
+    "IDE": "5.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2498,11 +2498,11 @@
     "BASICO": "26.6",
     "PROFICIENTE": "29.7",
     "AVANCADO": "7.8",
-    "IDE_Alfa": "3.6",
+    "IDE": "3.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2516,11 +2516,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "5.3",
     "AVANCADO": "94.7",
-    "IDE_Alfa": "9.9",
+    "IDE": "9.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2534,11 +2534,11 @@
     "BASICO": "27.3",
     "PROFICIENTE": "23.4",
     "AVANCADO": "22.1",
-    "IDE_Alfa": "4.6",
+    "IDE": "4.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2552,11 +2552,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "23.5",
     "AVANCADO": "11.8",
-    "IDE_Alfa": "2.6",
+    "IDE": "2.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2570,11 +2570,11 @@
     "BASICO": "25.0",
     "PROFICIENTE": "21.2",
     "AVANCADO": "30.8",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2588,11 +2588,11 @@
     "BASICO": "22.4",
     "PROFICIENTE": "43.3",
     "AVANCADO": "23.9",
-    "IDE_Alfa": "6.1",
+    "IDE": "6.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2606,11 +2606,11 @@
     "BASICO": "26.6",
     "PROFICIENTE": "29.8",
     "AVANCADO": "21.8",
-    "IDE_Alfa": "5.0",
+    "IDE": "5.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2624,11 +2624,11 @@
     "BASICO": "15.6",
     "PROFICIENTE": "28.1",
     "AVANCADO": "46.9",
-    "IDE_Alfa": "7.4",
+    "IDE": "7.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2642,11 +2642,11 @@
     "BASICO": "25.2",
     "PROFICIENTE": "23.5",
     "AVANCADO": "12.6",
-    "IDE_Alfa": "3.6",
+    "IDE": "3.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2660,11 +2660,11 @@
     "BASICO": "24.5",
     "PROFICIENTE": "36.7",
     "AVANCADO": "20.9",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2678,11 +2678,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "50.0",
     "AVANCADO": "37.5",
-    "IDE_Alfa": "6.8",
+    "IDE": "6.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2696,11 +2696,11 @@
     "BASICO": "34.1",
     "PROFICIENTE": "29.5",
     "AVANCADO": "25.0",
-    "IDE_Alfa": "5.6",
+    "IDE": "5.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2714,11 +2714,11 @@
     "BASICO": "21.4",
     "PROFICIENTE": "40.0",
     "AVANCADO": "14.3",
-    "IDE_Alfa": "4.6",
+    "IDE": "4.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2732,11 +2732,11 @@
     "BASICO": "42.9",
     "PROFICIENTE": "19.0",
     "AVANCADO": "9.5",
-    "IDE_Alfa": "3.5",
+    "IDE": "3.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2750,11 +2750,11 @@
     "BASICO": "20.4",
     "PROFICIENTE": "46.9",
     "AVANCADO": "28.6",
-    "IDE_Alfa": "6.9",
+    "IDE": "6.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2768,11 +2768,11 @@
     "BASICO": "9.6",
     "PROFICIENTE": "44.2",
     "AVANCADO": "46.2",
-    "IDE_Alfa": "8.4",
+    "IDE": "8.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2786,11 +2786,11 @@
     "BASICO": "20.9",
     "PROFICIENTE": "38.5",
     "AVANCADO": "34.1",
-    "IDE_Alfa": "6.8",
+    "IDE": "6.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2804,11 +2804,11 @@
     "BASICO": "7.7",
     "PROFICIENTE": "20.9",
     "AVANCADO": "67.0",
-    "IDE_Alfa": "8.8",
+    "IDE": "8.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2822,11 +2822,11 @@
     "BASICO": "14.6",
     "PROFICIENTE": "16.7",
     "AVANCADO": "60.4",
-    "IDE_Alfa": "8.1",
+    "IDE": "8.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2840,11 +2840,11 @@
     "BASICO": "9.5",
     "PROFICIENTE": "37.9",
     "AVANCADO": "46.6",
-    "IDE_Alfa": "7.8",
+    "IDE": "7.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2858,11 +2858,11 @@
     "BASICO": "15.0",
     "PROFICIENTE": "26.7",
     "AVANCADO": "51.7",
-    "IDE_Alfa": "7.8",
+    "IDE": "7.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2876,11 +2876,11 @@
     "BASICO": "16.5",
     "PROFICIENTE": "40.0",
     "AVANCADO": "38.8",
-    "IDE_Alfa": "7.4",
+    "IDE": "7.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2894,11 +2894,11 @@
     "BASICO": "4.2",
     "PROFICIENTE": "22.9",
     "AVANCADO": "68.8",
-    "IDE_Alfa": "8.9",
+    "IDE": "8.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2912,11 +2912,11 @@
     "BASICO": "14.8",
     "PROFICIENTE": "22.2",
     "AVANCADO": "59.3",
-    "IDE_Alfa": "8.4",
+    "IDE": "8.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2930,11 +2930,11 @@
     "BASICO": "14.6",
     "PROFICIENTE": "31.3",
     "AVANCADO": "52.1",
-    "IDE_Alfa": "8.2",
+    "IDE": "8.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2948,11 +2948,11 @@
     "BASICO": "18.2",
     "PROFICIENTE": "24.2",
     "AVANCADO": "51.5",
-    "IDE_Alfa": "7.4",
+    "IDE": "7.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2966,11 +2966,11 @@
     "BASICO": "10.4",
     "PROFICIENTE": "41.7",
     "AVANCADO": "43.8",
-    "IDE_Alfa": "7.8",
+    "IDE": "7.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -2984,11 +2984,11 @@
     "BASICO": "17.4",
     "PROFICIENTE": "56.5",
     "AVANCADO": "17.4",
-    "IDE_Alfa": "6.2",
+    "IDE": "6.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3002,11 +3002,11 @@
     "BASICO": "1.1",
     "PROFICIENTE": "5.7",
     "AVANCADO": "92.0",
-    "IDE_Alfa": "9.7",
+    "IDE": "9.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3020,11 +3020,11 @@
     "BASICO": "9.8",
     "PROFICIENTE": "26.2",
     "AVANCADO": "59.0",
-    "IDE_Alfa": "8.4",
+    "IDE": "8.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3038,11 +3038,11 @@
     "BASICO": "3.9",
     "PROFICIENTE": "14.3",
     "AVANCADO": "81.8",
-    "IDE_Alfa": "9.4",
+    "IDE": "9.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3056,11 +3056,11 @@
     "BASICO": "15.4",
     "PROFICIENTE": "42.7",
     "AVANCADO": "34.3",
-    "IDE_Alfa": "7.0",
+    "IDE": "7.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3074,11 +3074,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "2.0",
     "AVANCADO": "98.0",
-    "IDE_Alfa": "9.9",
+    "IDE": "9.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3092,11 +3092,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "23.1",
     "AVANCADO": "73.1",
-    "IDE_Alfa": "9.1",
+    "IDE": "9.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3110,11 +3110,11 @@
     "BASICO": "2.7",
     "PROFICIENTE": "21.3",
     "AVANCADO": "74.7",
-    "IDE_Alfa": "9.1",
+    "IDE": "9.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3128,11 +3128,11 @@
     "BASICO": "9.8",
     "PROFICIENTE": "41.2",
     "AVANCADO": "45.1",
-    "IDE_Alfa": "8.0",
+    "IDE": "8.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3146,11 +3146,11 @@
     "BASICO": "4.2",
     "PROFICIENTE": "12.5",
     "AVANCADO": "83.3",
-    "IDE_Alfa": "9.5",
+    "IDE": "9.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3164,11 +3164,11 @@
     "BASICO": "1.8",
     "PROFICIENTE": "1.8",
     "AVANCADO": "96.5",
-    "IDE_Alfa": "9.9",
+    "IDE": "9.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3182,11 +3182,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "8.3",
     "AVANCADO": "87.5",
-    "IDE_Alfa": "9.5",
+    "IDE": "9.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3200,11 +3200,11 @@
     "BASICO": "16.0",
     "PROFICIENTE": "56.0",
     "AVANCADO": "28.0",
-    "IDE_Alfa": "7.3",
+    "IDE": "7.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3218,11 +3218,11 @@
     "BASICO": "14.3",
     "PROFICIENTE": "28.6",
     "AVANCADO": "50.0",
-    "IDE_Alfa": "7.4",
+    "IDE": "7.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3236,11 +3236,11 @@
     "BASICO": "2.3",
     "PROFICIENTE": "38.6",
     "AVANCADO": "59.1",
-    "IDE_Alfa": "8.9",
+    "IDE": "8.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3254,11 +3254,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "3.5",
     "AVANCADO": "96.5",
-    "IDE_Alfa": "9.9",
+    "IDE": "9.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3272,11 +3272,11 @@
     "BASICO": "11.1",
     "PROFICIENTE": "33.3",
     "AVANCADO": "55.6",
-    "IDE_Alfa": "8.6",
+    "IDE": "8.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3290,11 +3290,11 @@
     "BASICO": "6.9",
     "PROFICIENTE": "16.7",
     "AVANCADO": "76.4",
-    "IDE_Alfa": "9.2",
+    "IDE": "9.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3308,11 +3308,11 @@
     "BASICO": "18.2",
     "PROFICIENTE": "40.9",
     "AVANCADO": "40.9",
-    "IDE_Alfa": "7.9",
+    "IDE": "7.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3326,11 +3326,11 @@
     "BASICO": "20.0",
     "PROFICIENTE": "37.1",
     "AVANCADO": "28.6",
-    "IDE_Alfa": "6.1",
+    "IDE": "6.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3344,11 +3344,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "35.7",
     "AVANCADO": "64.3",
-    "IDE_Alfa": "8.5",
+    "IDE": "8.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3362,11 +3362,11 @@
     "BASICO": "7.3",
     "PROFICIENTE": "22.0",
     "AVANCADO": "70.7",
-    "IDE_Alfa": "9.1",
+    "IDE": "9.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3380,11 +3380,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "0.0",
     "AVANCADO": "97.8",
-    "IDE_Alfa": "9.8",
+    "IDE": "9.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3398,11 +3398,11 @@
     "BASICO": "19.6",
     "PROFICIENTE": "39.3",
     "AVANCADO": "33.9",
-    "IDE_Alfa": "6.8",
+    "IDE": "6.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3416,11 +3416,11 @@
     "BASICO": "18.8",
     "PROFICIENTE": "29.7",
     "AVANCADO": "46.9",
-    "IDE_Alfa": "7.6",
+    "IDE": "7.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3434,11 +3434,11 @@
     "BASICO": "5.3",
     "PROFICIENTE": "27.6",
     "AVANCADO": "65.8",
-    "IDE_Alfa": "8.9",
+    "IDE": "8.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3452,11 +3452,11 @@
     "BASICO": "4.2",
     "PROFICIENTE": "8.3",
     "AVANCADO": "87.5",
-    "IDE_Alfa": "9.6",
+    "IDE": "9.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3470,11 +3470,11 @@
     "BASICO": "12.5",
     "PROFICIENTE": "50.0",
     "AVANCADO": "32.5",
-    "IDE_Alfa": "7.1",
+    "IDE": "7.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3488,11 +3488,11 @@
     "BASICO": "12.1",
     "PROFICIENTE": "36.2",
     "AVANCADO": "46.6",
-    "IDE_Alfa": "7.8",
+    "IDE": "7.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3506,11 +3506,11 @@
     "BASICO": "2.1",
     "PROFICIENTE": "6.3",
     "AVANCADO": "89.6",
-    "IDE_Alfa": "9.6",
+    "IDE": "9.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3524,11 +3524,11 @@
     "BASICO": "4.3",
     "PROFICIENTE": "20.7",
     "AVANCADO": "74.1",
-    "IDE_Alfa": "9.2",
+    "IDE": "9.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3542,11 +3542,11 @@
     "BASICO": "20.0",
     "PROFICIENTE": "31.4",
     "AVANCADO": "45.7",
-    "IDE_Alfa": "7.6",
+    "IDE": "7.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3560,11 +3560,11 @@
     "BASICO": "1.5",
     "PROFICIENTE": "30.1",
     "AVANCADO": "68.4",
-    "IDE_Alfa": "9.2",
+    "IDE": "9.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3578,11 +3578,11 @@
     "BASICO": "9.5",
     "PROFICIENTE": "32.8",
     "AVANCADO": "51.8",
-    "IDE_Alfa": "8.1",
+    "IDE": "8.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3596,11 +3596,11 @@
     "BASICO": "14.3",
     "PROFICIENTE": "50.0",
     "AVANCADO": "35.7",
-    "IDE_Alfa": "7.7",
+    "IDE": "7.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3614,11 +3614,11 @@
     "BASICO": "7.7",
     "PROFICIENTE": "34.6",
     "AVANCADO": "57.7",
-    "IDE_Alfa": "8.8",
+    "IDE": "8.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3632,11 +3632,11 @@
     "BASICO": "18.3",
     "PROFICIENTE": "19.4",
     "AVANCADO": "54.8",
-    "IDE_Alfa": "7.8",
+    "IDE": "7.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3650,11 +3650,11 @@
     "BASICO": "8.3",
     "PROFICIENTE": "22.9",
     "AVANCADO": "68.8",
-    "IDE_Alfa": "9.0",
+    "IDE": "9.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3668,11 +3668,11 @@
     "BASICO": "24.0",
     "PROFICIENTE": "44.0",
     "AVANCADO": "24.0",
-    "IDE_Alfa": "6.1",
+    "IDE": "6.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3686,11 +3686,11 @@
     "BASICO": "21.3",
     "PROFICIENTE": "40.4",
     "AVANCADO": "38.3",
-    "IDE_Alfa": "5.6",
+    "IDE": "5.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3704,11 +3704,11 @@
     "BASICO": "30.0",
     "PROFICIENTE": "55.7",
     "AVANCADO": "12.9",
-    "IDE_Alfa": "4.1",
+    "IDE": "4.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3722,11 +3722,11 @@
     "BASICO": "28.6",
     "PROFICIENTE": "49.5",
     "AVANCADO": "15.4",
-    "IDE_Alfa": "3.9",
+    "IDE": "3.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3740,11 +3740,11 @@
     "BASICO": "6.0",
     "PROFICIENTE": "37.1",
     "AVANCADO": "55.2",
-    "IDE_Alfa": "6.7",
+    "IDE": "6.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3758,11 +3758,11 @@
     "BASICO": "11.4",
     "PROFICIENTE": "29.5",
     "AVANCADO": "59.1",
-    "IDE_Alfa": "6.7",
+    "IDE": "6.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3776,11 +3776,11 @@
     "BASICO": "11.5",
     "PROFICIENTE": "42.7",
     "AVANCADO": "39.6",
-    "IDE_Alfa": "5.4",
+    "IDE": "5.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3794,11 +3794,11 @@
     "BASICO": "26.1",
     "PROFICIENTE": "42.3",
     "AVANCADO": "20.7",
-    "IDE_Alfa": "3.8",
+    "IDE": "3.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3812,11 +3812,11 @@
     "BASICO": "21.8",
     "PROFICIENTE": "43.6",
     "AVANCADO": "26.9",
-    "IDE_Alfa": "4.3",
+    "IDE": "4.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3830,11 +3830,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "21.7",
     "AVANCADO": "76.1",
-    "IDE_Alfa": "7.6",
+    "IDE": "7.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3848,11 +3848,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "41.7",
     "AVANCADO": "58.3",
-    "IDE_Alfa": "7.3",
+    "IDE": "7.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3866,11 +3866,11 @@
     "BASICO": "2.1",
     "PROFICIENTE": "16.7",
     "AVANCADO": "81.3",
-    "IDE_Alfa": "8.2",
+    "IDE": "8.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3884,11 +3884,11 @@
     "BASICO": "8.7",
     "PROFICIENTE": "60.9",
     "AVANCADO": "26.1",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3902,11 +3902,11 @@
     "BASICO": "28.6",
     "PROFICIENTE": "40.0",
     "AVANCADO": "5.7",
-    "IDE_Alfa": "2.5",
+    "IDE": "2.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3920,11 +3920,11 @@
     "BASICO": "20.0",
     "PROFICIENTE": "51.1",
     "AVANCADO": "22.2",
-    "IDE_Alfa": "4.4",
+    "IDE": "4.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3938,11 +3938,11 @@
     "BASICO": "7.1",
     "PROFICIENTE": "57.1",
     "AVANCADO": "35.7",
-    "IDE_Alfa": "5.8",
+    "IDE": "5.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3956,11 +3956,11 @@
     "BASICO": "3.2",
     "PROFICIENTE": "23.7",
     "AVANCADO": "72.0",
-    "IDE_Alfa": "7.5",
+    "IDE": "7.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3974,11 +3974,11 @@
     "BASICO": "11.9",
     "PROFICIENTE": "39.0",
     "AVANCADO": "47.5",
-    "IDE_Alfa": "5.8",
+    "IDE": "5.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -3992,11 +3992,11 @@
     "BASICO": "1.4",
     "PROFICIENTE": "8.5",
     "AVANCADO": "90.1",
-    "IDE_Alfa": "9.0",
+    "IDE": "9.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4010,11 +4010,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "4.3",
     "AVANCADO": "95.7",
-    "IDE_Alfa": "9.6",
+    "IDE": "9.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4028,11 +4028,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "33.3",
     "AVANCADO": "66.7",
-    "IDE_Alfa": "8.0",
+    "IDE": "8.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4046,11 +4046,11 @@
     "BASICO": "3.0",
     "PROFICIENTE": "34.0",
     "AVANCADO": "61.0",
-    "IDE_Alfa": "6.7",
+    "IDE": "6.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4064,11 +4064,11 @@
     "BASICO": "12.0",
     "PROFICIENTE": "32.0",
     "AVANCADO": "54.0",
-    "IDE_Alfa": "6.3",
+    "IDE": "6.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4082,11 +4082,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "23.1",
     "AVANCADO": "76.9",
-    "IDE_Alfa": "8.2",
+    "IDE": "8.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4100,11 +4100,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "10.3",
     "AVANCADO": "85.3",
-    "IDE_Alfa": "8.4",
+    "IDE": "8.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4118,11 +4118,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "26.1",
     "AVANCADO": "73.9",
-    "IDE_Alfa": "8.0",
+    "IDE": "8.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4136,11 +4136,11 @@
     "BASICO": "21.1",
     "PROFICIENTE": "47.4",
     "AVANCADO": "0.0",
-    "IDE_Alfa": "2.3",
+    "IDE": "2.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4154,11 +4154,11 @@
     "BASICO": "23.1",
     "PROFICIENTE": "46.2",
     "AVANCADO": "23.1",
-    "IDE_Alfa": "4.2",
+    "IDE": "4.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4172,11 +4172,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "30.8",
     "AVANCADO": "69.2",
-    "IDE_Alfa": "7.6",
+    "IDE": "7.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4190,11 +4190,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "3.9",
     "AVANCADO": "96.1",
-    "IDE_Alfa": "9.1",
+    "IDE": "9.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4208,11 +4208,11 @@
     "BASICO": "13.0",
     "PROFICIENTE": "43.5",
     "AVANCADO": "39.1",
-    "IDE_Alfa": "5.5",
+    "IDE": "5.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4226,11 +4226,11 @@
     "BASICO": "25.5",
     "PROFICIENTE": "40.4",
     "AVANCADO": "25.5",
-    "IDE_Alfa": "4.1",
+    "IDE": "4.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4244,11 +4244,11 @@
     "BASICO": "11.5",
     "PROFICIENTE": "53.8",
     "AVANCADO": "34.6",
-    "IDE_Alfa": "5.8",
+    "IDE": "5.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4262,11 +4262,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "40.0",
     "AVANCADO": "56.0",
-    "IDE_Alfa": "6.5",
+    "IDE": "6.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4280,11 +4280,11 @@
     "BASICO": "40.0",
     "PROFICIENTE": "46.7",
     "AVANCADO": "13.3",
-    "IDE_Alfa": "3.9",
+    "IDE": "3.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4298,11 +4298,11 @@
     "BASICO": "2.5",
     "PROFICIENTE": "47.5",
     "AVANCADO": "50.0",
-    "IDE_Alfa": "6.6",
+    "IDE": "6.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4316,11 +4316,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "16.3",
     "AVANCADO": "83.7",
-    "IDE_Alfa": "8.6",
+    "IDE": "8.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4334,11 +4334,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "23.1",
     "AVANCADO": "73.1",
-    "IDE_Alfa": "7.1",
+    "IDE": "7.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4352,11 +4352,11 @@
     "BASICO": "23.7",
     "PROFICIENTE": "50.0",
     "AVANCADO": "13.2",
-    "IDE_Alfa": "3.5",
+    "IDE": "3.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4370,11 +4370,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "42.0",
     "AVANCADO": "58.0",
-    "IDE_Alfa": "7.1",
+    "IDE": "7.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4388,11 +4388,11 @@
     "BASICO": "20.0",
     "PROFICIENTE": "50.0",
     "AVANCADO": "25.0",
-    "IDE_Alfa": "4.7",
+    "IDE": "4.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4406,11 +4406,11 @@
     "BASICO": "6.0",
     "PROFICIENTE": "26.9",
     "AVANCADO": "67.2",
-    "IDE_Alfa": "7.3",
+    "IDE": "7.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4424,11 +4424,11 @@
     "BASICO": "10.7",
     "PROFICIENTE": "41.1",
     "AVANCADO": "46.4",
-    "IDE_Alfa": "5.9",
+    "IDE": "5.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4442,11 +4442,11 @@
     "BASICO": "7.9",
     "PROFICIENTE": "55.6",
     "AVANCADO": "33.3",
-    "IDE_Alfa": "5.4",
+    "IDE": "5.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4460,11 +4460,11 @@
     "BASICO": "12.7",
     "PROFICIENTE": "41.8",
     "AVANCADO": "39.1",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4478,11 +4478,11 @@
     "BASICO": "4.9",
     "PROFICIENTE": "31.7",
     "AVANCADO": "61.0",
-    "IDE_Alfa": "6.7",
+    "IDE": "6.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4496,11 +4496,11 @@
     "BASICO": "11.7",
     "PROFICIENTE": "43.3",
     "AVANCADO": "41.7",
-    "IDE_Alfa": "5.6",
+    "IDE": "5.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4514,11 +4514,11 @@
     "BASICO": "15.2",
     "PROFICIENTE": "53.0",
     "AVANCADO": "21.2",
-    "IDE_Alfa": "4.1",
+    "IDE": "4.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4532,11 +4532,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "0.0",
     "AVANCADO": "93.3",
-    "IDE_Alfa": "8.6",
+    "IDE": "8.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4550,11 +4550,11 @@
     "BASICO": "31.1",
     "PROFICIENTE": "36.8",
     "AVANCADO": "24.5",
-    "IDE_Alfa": "4.0",
+    "IDE": "4.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4568,11 +4568,11 @@
     "BASICO": "24.3",
     "PROFICIENTE": "40.0",
     "AVANCADO": "12.9",
-    "IDE_Alfa": "2.9",
+    "IDE": "2.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4586,11 +4586,11 @@
     "BASICO": "5.4",
     "PROFICIENTE": "32.4",
     "AVANCADO": "62.2",
-    "IDE_Alfa": "7.2",
+    "IDE": "7.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4604,11 +4604,11 @@
     "BASICO": "18.8",
     "PROFICIENTE": "41.2",
     "AVANCADO": "35.3",
-    "IDE_Alfa": "5.0",
+    "IDE": "5.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4622,11 +4622,11 @@
     "BASICO": "9.1",
     "PROFICIENTE": "29.5",
     "AVANCADO": "59.1",
-    "IDE_Alfa": "6.4",
+    "IDE": "6.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4640,11 +4640,11 @@
     "BASICO": "9.5",
     "PROFICIENTE": "36.5",
     "AVANCADO": "54.1",
-    "IDE_Alfa": "6.5",
+    "IDE": "6.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4658,11 +4658,11 @@
     "BASICO": "18.9",
     "PROFICIENTE": "32.9",
     "AVANCADO": "40.9",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4676,11 +4676,11 @@
     "BASICO": "1.9",
     "PROFICIENTE": "37.7",
     "AVANCADO": "58.5",
-    "IDE_Alfa": "6.8",
+    "IDE": "6.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4694,11 +4694,11 @@
     "BASICO": "27.1",
     "PROFICIENTE": "35.7",
     "AVANCADO": "31.4",
-    "IDE_Alfa": "4.4",
+    "IDE": "4.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4712,11 +4712,11 @@
     "BASICO": "14.5",
     "PROFICIENTE": "39.1",
     "AVANCADO": "40.0",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4730,11 +4730,11 @@
     "BASICO": "20.5",
     "PROFICIENTE": "45.8",
     "AVANCADO": "33.7",
-    "IDE_Alfa": "5.3",
+    "IDE": "5.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4748,11 +4748,11 @@
     "BASICO": "25.0",
     "PROFICIENTE": "35.0",
     "AVANCADO": "40.0",
-    "IDE_Alfa": "5.0",
+    "IDE": "5.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4766,11 +4766,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "8.3",
     "AVANCADO": "91.7",
-    "IDE_Alfa": "8.4",
+    "IDE": "8.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4784,11 +4784,11 @@
     "BASICO": "9.7",
     "PROFICIENTE": "33.9",
     "AVANCADO": "54.8",
-    "IDE_Alfa": "6.2",
+    "IDE": "6.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4802,11 +4802,11 @@
     "BASICO": "10.0",
     "PROFICIENTE": "56.7",
     "AVANCADO": "33.3",
-    "IDE_Alfa": "5.5",
+    "IDE": "5.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4820,11 +4820,11 @@
     "BASICO": "10.4",
     "PROFICIENTE": "35.4",
     "AVANCADO": "52.1",
-    "IDE_Alfa": "6.3",
+    "IDE": "6.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4838,11 +4838,11 @@
     "BASICO": "20.0",
     "PROFICIENTE": "38.0",
     "AVANCADO": "42.0",
-    "IDE_Alfa": "5.6",
+    "IDE": "5.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4856,11 +4856,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "38.9",
     "AVANCADO": "61.1",
-    "IDE_Alfa": "6.9",
+    "IDE": "6.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4874,11 +4874,11 @@
     "BASICO": "17.7",
     "PROFICIENTE": "38.5",
     "AVANCADO": "40.6",
-    "IDE_Alfa": "5.3",
+    "IDE": "5.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4892,11 +4892,11 @@
     "BASICO": "17.2",
     "PROFICIENTE": "42.2",
     "AVANCADO": "37.5",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4910,11 +4910,11 @@
     "BASICO": "2.2",
     "PROFICIENTE": "35.2",
     "AVANCADO": "62.6",
-    "IDE_Alfa": "7.2",
+    "IDE": "7.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4928,11 +4928,11 @@
     "BASICO": "3.4",
     "PROFICIENTE": "17.2",
     "AVANCADO": "75.9",
-    "IDE_Alfa": "7.6",
+    "IDE": "7.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4946,11 +4946,11 @@
     "BASICO": "8.3",
     "PROFICIENTE": "45.8",
     "AVANCADO": "41.7",
-    "IDE_Alfa": "5.6",
+    "IDE": "5.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4964,11 +4964,11 @@
     "BASICO": "3.2",
     "PROFICIENTE": "48.4",
     "AVANCADO": "48.4",
-    "IDE_Alfa": "6.5",
+    "IDE": "6.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -4982,11 +4982,11 @@
     "BASICO": "2.1",
     "PROFICIENTE": "36.2",
     "AVANCADO": "61.7",
-    "IDE_Alfa": "6.9",
+    "IDE": "6.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5000,11 +5000,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "4.8",
     "AVANCADO": "95.2",
-    "IDE_Alfa": "8.6",
+    "IDE": "8.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5018,11 +5018,11 @@
     "BASICO": "15.5",
     "PROFICIENTE": "34.5",
     "AVANCADO": "48.3",
-    "IDE_Alfa": "5.5",
+    "IDE": "5.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5036,11 +5036,11 @@
     "BASICO": "6.7",
     "PROFICIENTE": "33.3",
     "AVANCADO": "55.6",
-    "IDE_Alfa": "5.9",
+    "IDE": "5.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5054,11 +5054,11 @@
     "BASICO": "23.8",
     "PROFICIENTE": "14.3",
     "AVANCADO": "52.4",
-    "IDE_Alfa": "5.1",
+    "IDE": "5.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5072,11 +5072,11 @@
     "BASICO": "6.3",
     "PROFICIENTE": "31.3",
     "AVANCADO": "56.3",
-    "IDE_Alfa": "6.1",
+    "IDE": "6.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5090,11 +5090,11 @@
     "BASICO": "18.4",
     "PROFICIENTE": "23.7",
     "AVANCADO": "55.3",
-    "IDE_Alfa": "5.8",
+    "IDE": "5.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5108,11 +5108,11 @@
     "BASICO": "17.1",
     "PROFICIENTE": "26.8",
     "AVANCADO": "52.4",
-    "IDE_Alfa": "5.8",
+    "IDE": "5.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5126,11 +5126,11 @@
     "BASICO": "9.5",
     "PROFICIENTE": "42.9",
     "AVANCADO": "47.6",
-    "IDE_Alfa": "6.3",
+    "IDE": "6.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5144,11 +5144,11 @@
     "BASICO": "13.6",
     "PROFICIENTE": "36.4",
     "AVANCADO": "50.0",
-    "IDE_Alfa": "6.0",
+    "IDE": "6.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5162,11 +5162,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "22.2",
     "AVANCADO": "77.8",
-    "IDE_Alfa": "7.8",
+    "IDE": "7.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5180,11 +5180,11 @@
     "BASICO": "16.7",
     "PROFICIENTE": "33.3",
     "AVANCADO": "41.7",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5198,11 +5198,11 @@
     "BASICO": "8.8",
     "PROFICIENTE": "44.1",
     "AVANCADO": "44.1",
-    "IDE_Alfa": "5.8",
+    "IDE": "5.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5216,11 +5216,11 @@
     "BASICO": "2.6",
     "PROFICIENTE": "38.5",
     "AVANCADO": "59.0",
-    "IDE_Alfa": "6.8",
+    "IDE": "6.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5234,11 +5234,11 @@
     "BASICO": "5.6",
     "PROFICIENTE": "55.6",
     "AVANCADO": "38.9",
-    "IDE_Alfa": "5.7",
+    "IDE": "5.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5252,11 +5252,11 @@
     "BASICO": "3.2",
     "PROFICIENTE": "15.9",
     "AVANCADO": "81.0",
-    "IDE_Alfa": "8.0",
+    "IDE": "8.0",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5270,11 +5270,11 @@
     "BASICO": "27.9",
     "PROFICIENTE": "38.7",
     "AVANCADO": "27.9",
-    "IDE_Alfa": "4.3",
+    "IDE": "4.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5288,11 +5288,11 @@
     "BASICO": "28.9",
     "PROFICIENTE": "32.2",
     "AVANCADO": "36.7",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5306,11 +5306,11 @@
     "BASICO": "19.2",
     "PROFICIENTE": "31.5",
     "AVANCADO": "23.3",
-    "IDE_Alfa": "3.1",
+    "IDE": "3.1",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5324,11 +5324,11 @@
     "BASICO": "18.5",
     "PROFICIENTE": "36.9",
     "AVANCADO": "38.5",
-    "IDE_Alfa": "4.8",
+    "IDE": "4.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5342,11 +5342,11 @@
     "BASICO": "6.3",
     "PROFICIENTE": "32.6",
     "AVANCADO": "61.1",
-    "IDE_Alfa": "6.9",
+    "IDE": "6.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5360,11 +5360,11 @@
     "BASICO": "15.6",
     "PROFICIENTE": "53.3",
     "AVANCADO": "31.1",
-    "IDE_Alfa": "5.4",
+    "IDE": "5.4",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5378,11 +5378,11 @@
     "BASICO": "12.3",
     "PROFICIENTE": "47.7",
     "AVANCADO": "38.7",
-    "IDE_Alfa": "5.6",
+    "IDE": "5.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5396,11 +5396,11 @@
     "BASICO": "19.8",
     "PROFICIENTE": "27.2",
     "AVANCADO": "46.9",
-    "IDE_Alfa": "5.2",
+    "IDE": "5.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5414,11 +5414,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "7.7",
     "AVANCADO": "92.3",
-    "IDE_Alfa": "8.8",
+    "IDE": "8.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5432,11 +5432,11 @@
     "BASICO": "33.3",
     "PROFICIENTE": "16.7",
     "AVANCADO": "50.0",
-    "IDE_Alfa": "5.3",
+    "IDE": "5.3",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5450,11 +5450,11 @@
     "BASICO": "27.7",
     "PROFICIENTE": "37.6",
     "AVANCADO": "27.7",
-    "IDE_Alfa": "4.2",
+    "IDE": "4.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5468,11 +5468,11 @@
     "BASICO": "0.0",
     "PROFICIENTE": "25.0",
     "AVANCADO": "75.0",
-    "IDE_Alfa": "7.9",
+    "IDE": "7.9",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5486,11 +5486,11 @@
     "BASICO": "20.8",
     "PROFICIENTE": "37.5",
     "AVANCADO": "41.7",
-    "IDE_Alfa": "5.5",
+    "IDE": "5.5",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5504,11 +5504,11 @@
     "BASICO": "9.0",
     "PROFICIENTE": "21.3",
     "AVANCADO": "68.5",
-    "IDE_Alfa": "7.2",
+    "IDE": "7.2",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5522,11 +5522,11 @@
     "BASICO": "10",
     "PROFICIENTE": "34",
     "AVANCADO": "54",
-    "IDE_Alfa": "6",
+    "IDE": "6.2",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5540,11 +5540,11 @@
     "BASICO": "14",
     "PROFICIENTE": "40",
     "AVANCADO": "44",
-    "IDE_Alfa": "6",
+    "IDE": "5.7",
     "COMPONENTE_CURRICULAR": "MATEMÁTICA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5558,11 +5558,11 @@
     "BASICO": "24",
     "PROFICIENTE": "27",
     "AVANCADO": "22",
-    "IDE_Alfa": "5",
+    "IDE": "4.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5576,11 +5576,11 @@
     "BASICO": "10",
     "PROFICIENTE": "27",
     "AVANCADO": "60",
-    "IDE_Alfa": "9",
+    "IDE": "8.6",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5594,11 +5594,11 @@
     "BASICO": "12",
     "PROFICIENTE": "37",
     "AVANCADO": "47",
-    "IDE_Alfa": "6",
+    "IDE": "5.7",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   },
   {
-    "ETAPA": "2º Ano ",
+    "ETAPA": "2º Ano",
     "REDE": "MUNICIPAL",
     "CREDE": "MARACANAU",
     "INEP_MUN": "2307650",
@@ -5612,7 +5612,7 @@
     "BASICO": "14",
     "PROFICIENTE": "35",
     "AVANCADO": "48",
-    "IDE_Alfa": "6",
+    "IDE": "5.8",
     "COMPONENTE_CURRICULAR": "LÍNGUA PORTUGUESA"
   }
 ]
