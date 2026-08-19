@@ -5,29 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SPAECE Analytics Pro V14.4</title>
 
-    <!-- Bootstrap 5, Font Awesome, Google Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=OpenDyslexic&display=swap" rel="stylesheet" />
 
-    <!-- Chart.js com datalabels, html2canvas e jsPDF -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
     <style>
-        /* ===== Variáveis globais ===== */
         :root {
             --primary: #0f172a;
             --accent: #4f46e5;
             --sidebar-w: 280px;
             --bg-app: #f8fafc;
             --text-main: #0f172a;
-            --card-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
         }
 
-        /* ===== Temas ===== */
         body.dark-mode {
             --bg-app: #0f172a;
             --text-main: #f8fafc;
@@ -41,16 +36,14 @@
             font-family: 'OpenDyslexic', sans-serif !important;
         }
 
-        /* ===== Estilos base ===== */
         body {
             background-color: var(--bg-app);
             color: var(--text-main);
             font-family: 'Inter', sans-serif;
             overflow-x: hidden;
-            transition: background 0.3s, color 0.3s;
+            transition: 0.3s;
         }
 
-        /* ===== Barra de acessibilidade ===== */
         .acc-bar {
             position: fixed;
             top: 15px;
@@ -78,7 +71,7 @@
             transform: scale(1.1);
         }
 
-        /* ===== Sidebar ===== */
+        /* Sidebar e botão toggle */
         #sidebar {
             width: var(--sidebar-w);
             height: 100vh;
@@ -95,23 +88,7 @@
         #sidebar.collapsed {
             left: calc(var(--sidebar-w) * -1);
         }
-        #sidebar .form-select {
-            background-color: #1e293b !important;
-            color: white !important;
-            border: 1px solid #334155;
-        }
-        #sidebar .form-select:focus {
-            border-color: var(--accent);
-            box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.25);
-        }
-        #sidebar label {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            opacity: 0.7;
-        }
 
-        /* ===== Botão toggle do menu ===== */
         .btn-toggle {
             position: fixed;
             left: 235px;
@@ -137,7 +114,6 @@
             display: flex;
         }
 
-        /* ===== Conteúdo principal ===== */
         #content {
             margin-left: var(--sidebar-w);
             transition: 0.3s ease;
@@ -150,19 +126,14 @@
             margin-left: 0;
         }
 
-        /* ===== Cards ===== */
         .glass-card {
             background: white;
             border-radius: 20px;
             padding: 25px;
-            box-shadow: var(--card-shadow);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
             margin-bottom: 25px;
             border: 1px solid #e2e8f0;
             position: relative;
-            transition: transform 0.2s;
-        }
-        .glass-card:hover {
-            transform: translateY(-2px);
         }
 
         .btn-png {
@@ -178,14 +149,12 @@
             background: white;
             color: #4f46e5;
             cursor: pointer;
-            transition: 0.2s;
         }
         .btn-png:hover {
             background: #4f46e5;
             color: white;
         }
 
-        /* ===== Cards de status ===== */
         .card-critico {
             background-color: #ef4444;
             color: white;
@@ -203,7 +172,6 @@
             color: white;
         }
 
-        /* ===== KPI ===== */
         .kpi-card {
             background: #fff;
             border: 1px solid #e2e8f0;
@@ -222,7 +190,14 @@
             color: #dc2626;
         }
 
-        /* ===== Pills de valores ===== */
+        .sum-card {
+            border-radius: 15px;
+            padding: 15px;
+            text-align: center;
+            min-width: 130px;
+            transition: 0.3s;
+        }
+
         .val-pill {
             padding: 6px 14px;
             border-radius: 20px;
@@ -248,7 +223,6 @@
             color: #b45309;
         }
 
-        /* ===== Rodapé fixo ===== */
         .footer-fixed {
             position: absolute;
             bottom: 0;
@@ -264,28 +238,27 @@
             font-size: 12px;
         }
 
-        /* ===== Responsividade ===== */
-        @media (max-width: 768px) {
-            #sidebar {
-                width: 240px;
-            }
-            #content {
-                margin-left: 0;
-                padding: 20px;
-            }
-            .btn-toggle {
-                left: 15px;
-                display: flex !important;
-            }
-            #sidebar:not(.collapsed) + .btn-toggle {
-                left: 195px;
-            }
+        /* Ajustes para selects dentro da sidebar escura */
+        #sidebar .form-select {
+            background-color: #1e293b !important;
+            color: white !important;
+            border: 1px solid #334155;
+        }
+        #sidebar .form-select:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.25);
+        }
+        #sidebar label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            opacity: 0.7;
         }
     </style>
 </head>
 <body>
 
-    <!-- VLibras (acessibilidade em Libras) -->
+    <!-- VLibras -->
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
         <div vw-plugin-wrapper>
@@ -297,38 +270,36 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
 
-    <!-- ===== APLICAÇÃO PRINCIPAL ===== -->
+    <!-- Aplicação principal (sem login) -->
     <div id="app">
         <!-- Barra de acessibilidade -->
-        <div class="acc-bar" role="toolbar" aria-label="Opções de acessibilidade">
-            <button class="acc-btn" onclick="alterarFonte(1)" aria-label="Aumentar fonte"><i class="fas fa-plus"></i></button>
-            <button class="acc-btn" onclick="alterarFonte(-1)" aria-label="Diminuir fonte"><i class="fas fa-minus"></i></button>
-            <button class="acc-btn" onclick="toggleDyslexic()" aria-label="Alternar fonte para dislexia"><i class="fas fa-font"></i></button>
-            <button class="acc-btn" onclick="toggleDarkMode()" aria-label="Alternar modo escuro"><i class="fas fa-moon"></i></button>
+        <div class="acc-bar">
+            <button class="acc-btn" onclick="alterarFonte(1)" title="Aumentar Fonte"><i class="fas fa-plus"></i></button>
+            <button class="acc-btn" onclick="alterarFonte(-1)" title="Diminuir Fonte"><i class="fas fa-minus"></i></button>
+            <button class="acc-btn" onclick="toggleDyslexic()" title="Fonte Dislexia"><i class="fas fa-font"></i></button>
+            <button class="acc-btn" onclick="toggleDarkMode()" title="Contraste"><i class="fas fa-moon"></i></button>
         </div>
 
         <!-- Sidebar -->
-        <aside id="sidebar" role="navigation" aria-label="Filtros e controles">
+        <aside id="sidebar">
             <div class="mt-4 text-center mb-4">
                 <h5 class="fw-800">DASHBOARD V14.4</h5>
                 <hr class="bg-secondary" />
             </div>
 
             <!-- Seletor de Escola -->
-            <label class="small fw-bold text-white-50" for="selEscola">ESCOLA</label>
-            <select id="selEscola" class="form-select mb-4" onchange="selecionarEscola()" aria-label="Selecione a escola">
+            <label class="small fw-bold text-white-50">ESCOLA</label>
+            <select id="selEscola" class="form-select mb-4" onchange="selecionarEscola()">
                 <option value="">Carregando escolas...</option>
             </select>
 
-            <!-- Seletor de Etapa -->
-            <label class="small fw-bold text-white-50" for="selEtapa">ETAPA</label>
-            <select id="selEtapa" class="form-select mb-4" onchange="popularComponentes()" aria-label="Selecione a etapa">
+            <label class="small fw-bold text-white-50">ETAPA</label>
+            <select id="selEtapa" class="form-select mb-4" onchange="popularComponentes()">
                 <option value="">Selecione a etapa</option>
             </select>
 
-            <!-- Seletor de Componente -->
-            <label class="small fw-bold text-white-50" for="selComp">COMPONENTE</label>
-            <select id="selComp" class="form-select mb-5" onchange="render()" aria-label="Selecione o componente curricular">
+            <label class="small fw-bold text-white-50">COMPONENTE</label>
+            <select id="selComp" class="form-select mb-5" onchange="render()">
                 <option value="">Selecione o componente</option>
             </select>
 
@@ -336,8 +307,7 @@
             <button class="btn btn-success w-100 fw-bold shadow-sm" onclick="gerarPDF()">GERAR PDF</button>
         </aside>
 
-        <!-- Botão toggle (menu hambúrguer) -->
-        <button class="btn-toggle" onclick="toggleMenu()" aria-label="Alternar menu lateral"><i class="fas fa-bars"></i></button>
+        <button class="btn btn-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
 
         <!-- Conteúdo principal -->
         <main id="content">
@@ -346,76 +316,49 @@
                 <p id="hInep" class="text-muted mb-0 font-weight-bold">---</p>
             </header>
 
-            <!-- Abas -->
             <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
-                <li class="nav-item"><button class="nav-link active" id="tab-prof" data-bs-toggle="pill" data-bs-target="#p-prof" type="button" role="tab">PROFICIÊNCIA</button></li>
-                <li class="nav-item"><button class="nav-link" id="tab-ide" data-bs-toggle="pill" data-bs-target="#p-ide" type="button" role="tab">INDICADOR IDE</button></li>
-                <li class="nav-item"><button class="nav-link" id="tab-comp" data-bs-toggle="pill" data-bs-target="#p-comp" type="button" role="tab">DESEMPENHO EM REDE</button></li>
-                <li class="nav-item"><button class="nav-link" id="tab-niveis" data-bs-toggle="pill" data-bs-target="#p-niveis" type="button" role="tab">NÍVEIS DE APRENDIZAGEM</button></li>
-                <li class="nav-item"><button class="nav-link" id="tab-hist" data-bs-toggle="pill" data-bs-target="#p-hist" type="button" role="tab">SÉRIE HISTÓRICA</button></li>
+                <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#p-prof" type="button">PROFICIÊNCIA</button></li>
+                <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#p-ide" type="button">INDICADOR IDE</button></li>
+                <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#p-comp" type="button">DESEMPENHO EM REDE</button></li>
+                <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#p-niveis" type="button">NÍVEIS DE APRENDIZAGEM</button></li>
+                <li class="nav-item"><button class="nav-link" data-bs-toggle="pill" data-bs-target="#p-hist" type="button">SÉRIE HISTÓRICA</button></li>
             </ul>
 
             <div class="tab-content" id="pills-tabContent">
-                <!-- Aba Proficiência -->
-                <div class="tab-pane fade show active" id="p-prof" role="tabpanel" aria-labelledby="tab-prof">
+                <div class="tab-pane fade show active" id="p-prof">
                     <div class="glass-card" id="c-prof">
                         <button class="btn-png" onclick="baixarPNG('c-prof','Proficiencia')"><i class="fas fa-download"></i> PNG</button>
                         <h5 class="fw-bold mb-4">Proficiência Média</h5>
                         <div style="height:400px"><canvas id="chartProf"></canvas></div>
                     </div>
                 </div>
-
-                <!-- Aba IDE -->
-                <div class="tab-pane fade" id="p-ide" role="tabpanel" aria-labelledby="tab-ide">
+                <div class="tab-pane fade" id="p-ide">
                     <div class="glass-card" id="c-ide">
                         <button class="btn-png" onclick="baixarPNG('c-ide','IDE')"><i class="fas fa-download"></i> PNG</button>
                         <h5 id="titleIde" class="fw-bold mb-4">IDE</h5>
                         <div style="height:400px"><canvas id="chartIde"></canvas></div>
                     </div>
                 </div>
-
-                <!-- Aba Desempenho em Rede -->
-                <div class="tab-pane fade" id="p-comp" role="tabpanel" aria-labelledby="tab-comp">
-                    <div id="gridComparativo"></div>
-                </div>
-
-                <!-- Aba Níveis de Aprendizagem -->
-                <div class="tab-pane fade" id="p-niveis" role="tabpanel" aria-labelledby="tab-niveis">
-                    <div id="gridNiveis"></div>
-                </div>
-
-                <!-- Aba Série Histórica -->
-                <div class="tab-pane fade" id="p-hist" role="tabpanel" aria-labelledby="tab-hist">
-                    <div id="gridHistorico"></div>
-                </div>
+                <div class="tab-pane fade" id="p-comp"><div id="gridComparativo"></div></div>
+                <div class="tab-pane fade" id="p-niveis"><div id="gridNiveis"></div></div>
+                <div class="tab-pane fade" id="p-hist"><div id="gridHistorico"></div></div>
             </div>
 
             <footer class="footer-fixed"><span>© 2026 SPAECE DASHBOARD | Acessibilidade Digital</span></footer>
         </main>
     </div>
 
-    <!-- ============================================================ -->
-    <!-- ====================== JAVASCRIPT ============================ -->
-    <!-- ============================================================ -->
     <script>
-        /**
-         * =================================================================
-         * SPAECE DASHBOARD - Script completo
-         * Versão: 14.4 (Refatorada e otimizada)
-         * =================================================================
-         */
-
-        // ---------- Globais ----------
-        let database = []; // Todos os registros carregados dos JSONs
-        let chartP = null; // Gráfico de Proficiência
-        let chartI = null; // Gráfico de IDE
+        // ========== Variáveis globais ==========
+        let database = [];
+        let chartP = null,
+            chartI = null;
         let fontSize = 16;
-        let escolaSelecionada = null; // INEP da escola atual
+        let escolaSelecionada = null; // armazena o INEP da escola atual
 
-        // Registrar plugin de datalabels do Chart.js
         Chart.register(ChartDataLabels);
 
-        // ---------- Funções de Acessibilidade ----------
+        // ========== Acessibilidade ==========
         function alterarFonte(v) {
             fontSize += v;
             document.body.style.fontSize = fontSize + 'px';
@@ -429,20 +372,19 @@
             document.body.classList.toggle('dark-mode');
         }
 
-        // ---------- Toggle do menu lateral ----------
+        // ========== Toggle menu ==========
         function toggleMenu() {
             const side = document.getElementById('sidebar');
             const main = document.getElementById('content');
             side.classList.toggle('collapsed');
             main.classList.toggle('expanded');
-            // Redimensionar gráficos após animação
             setTimeout(() => {
                 if (chartP) chartP.resize();
                 if (chartI) chartI.resize();
             }, 350);
         }
 
-        // ---------- Carregar dados dos JSONs ----------
+        // ========== Carregar dados ==========
         async function load() {
             try {
                 const [rS, rA] = await Promise.all([
@@ -452,17 +394,16 @@
                 database = [...rS, ...rA];
                 popularEscolas();
             } catch (e) {
-                console.error('Erro ao carregar os arquivos JSON:', e);
-                document.getElementById('selEscola').innerHTML =
-                    '<option value="">Erro ao carregar dados. Verifique os arquivos JSON.</option>';
+                console.error("Falha ao carregar JSONs", e);
+                document.getElementById('selEscola').innerHTML = '<option value="">Erro ao carregar dados</option>';
             }
         }
 
-        // ---------- Popular seletor de escolas ----------
+        // ========== Popular seletor de escolas ==========
         function popularEscolas() {
             const sel = document.getElementById('selEscola');
+            // Extrair escolas únicas (considerando INEP_ESC e ESCOLA)
             const escolasMap = new Map();
-
             database.forEach(row => {
                 const inep = String(row.INEP_ESC || row.INEP || '');
                 const nome = row.ESCOLA || row.NO_MUNICIPIO || 'Escola sem nome';
@@ -470,8 +411,7 @@
                     escolasMap.set(inep, nome);
                 }
             });
-
-            // Ordenar por nome da escola
+            // Ordenar por nome
             const sorted = Array.from(escolasMap.entries()).sort((a, b) => a[1].localeCompare(b[1]));
 
             sel.innerHTML = '<option value="">Selecione uma escola</option>';
@@ -491,11 +431,10 @@
             }
         }
 
-        // ---------- Selecionar escola ----------
+        // ========== Selecionar escola ==========
         function selecionarEscola() {
             const sel = document.getElementById('selEscola');
             const inep = sel.value;
-
             if (!inep) {
                 // Limpar dashboard
                 document.getElementById('hEscola').innerText = 'Selecione uma escola';
@@ -514,7 +453,7 @@
 
             escolaSelecionada = inep;
 
-            // Atualizar cabeçalho
+            // Atualizar cabeçalho com nome da escola
             const row = database.find(d => String(d.INEP_ESC || d.INEP) === inep);
             if (row) {
                 document.getElementById('hEscola').innerText = row.ESCOLA || row.NO_MUNICIPIO || 'Escola';
@@ -538,6 +477,7 @@
                 selEtapa.appendChild(opt);
             });
 
+            // Se houver etapas, selecionar a primeira e popular componentes
             if (etapas.length > 0) {
                 selEtapa.value = etapas[0];
                 popularComponentes();
@@ -546,7 +486,7 @@
             }
         }
 
-        // ---------- Popular componentes com base na etapa ----------
+        // ========== Popular componentes com base na etapa selecionada ==========
         function popularComponentes() {
             const inep = escolaSelecionada;
             const etapa = document.getElementById('selEtapa').value;
@@ -576,7 +516,7 @@
                 selComp.value = comps[0];
                 render();
             } else {
-                // Limpar gráficos se não houver componentes
+                // Limpar gráficos
                 if (chartP) { chartP.destroy();
                     chartP = null; }
                 if (chartI) { chartI.destroy();
@@ -587,27 +527,12 @@
             }
         }
 
-        // ---------- Funções auxiliares ----------
-        /** Converte string para número, tratando vírgula e % */
+        // ========== Funções auxiliares ==========
         function parse(v) {
-            if (v === undefined || v === null || v === '') return 0;
-            const cleaned = String(v).replace('%', '').replace(',', '.');
-            const num = parseFloat(cleaned);
-            return isNaN(num) ? 0 : num;
+            if (!v && v !== 0) return 0;
+            return parseFloat(String(v).replace('%', '').replace(',', '.')) || 0;
         }
 
-        /** Retorna o valor do IDE a partir do registro, tentando vários nomes de campo */
-        function getIdeValue(row) {
-            const campos = ['IDE_Alfa', 'IDE_ALFA', 'IDE_LP', 'IDE_MT', 'IDE'];
-            for (const campo of campos) {
-                if (row[campo] !== undefined && row[campo] !== null && row[campo] !== '') {
-                    return parse(row[campo]);
-                }
-            }
-            return 0;
-        }
-
-        /** Define a cor do card de aprendizado com base no percentual */
         function getColorClass(soma) {
             if (soma <= 25) return 'card-critico';
             if (soma <= 50) return 'card-alerta';
@@ -615,7 +540,7 @@
             return 'card-excelente';
         }
 
-        // ---------- Renderização principal ----------
+        // ========== Renderização principal ==========
         function render() {
             const inep = escolaSelecionada;
             const etapa = document.getElementById('selEtapa').value;
@@ -633,7 +558,6 @@
                 return;
             }
 
-            // Filtrar registros da escola, etapa e componente
             const rows = database
                 .filter(d =>
                     String(d.INEP_ESC || d.INEP) === inep &&
@@ -643,6 +567,7 @@
                 .sort((a, b) => a.EDICAO - b.EDICAO);
 
             if (rows.length === 0) {
+                // Mensagem de sem dados
                 document.getElementById('hEscola').innerText = 'Sem dados para essa combinação';
                 return;
             }
@@ -651,7 +576,6 @@
             document.getElementById('hEscola').innerText = rows[0].ESCOLA || rows[0].NO_MUNICIPIO || 'Escola';
             document.getElementById('hInep').innerText = `INEP: ${inep} | ${etapa} | ${comp}`;
 
-            // Renderizar cada aba
             renderProf(rows);
             renderIde(rows, etapa, comp);
             renderComparacao(rows, etapa, comp);
@@ -659,20 +583,17 @@
             renderHistorico([...rows].reverse());
         }
 
-        // ---------- Gráfico de Proficiência ----------
+        // ========== Gráfico de Proficiência ==========
         function renderProf(rows) {
             if (chartP) chartP.destroy();
-
-            const ctx = document.getElementById('chartProf').getContext('2d');
-            chartP = new Chart(ctx, {
+            chartP = new Chart(document.getElementById('chartProf'), {
                 type: 'bar',
                 data: {
                     labels: rows.map(r => r.EDICAO),
                     datasets: [{
                         data: rows.map(r => Math.round(parse(r.PROFICIENCIA_MEDIA))),
                         backgroundColor: '#4f46e5',
-                        borderRadius: 8,
-                        barPercentage: 0.6,
+                        borderRadius: 8
                     }]
                 },
                 options: {
@@ -683,91 +604,57 @@
                             anchor: 'end',
                             align: 'top',
                             font: { weight: '800', size: 16 },
-                            color: '#4f46e5',
                             formatter: Math.round
                         }
                     },
                     scales: {
                         y: { display: false },
-                        x: {
-                            grid: { display: false },
-                            ticks: { font: { weight: 'bold' } }
-                        }
+                        x: { grid: { display: false } }
                     }
                 }
             });
         }
 
-        // ---------- Gráfico de IDE (com linha poligonal aprimorada) ----------
+        // ========== Gráfico de IDE ==========
         function renderIde(rows, etapa, comp) {
             if (chartI) chartI.destroy();
-
-            // Determinar o label do IDE
             let label = etapa.includes('2º') ? 'IDE Alfa' : (comp.includes('Port') ? 'IDE LP' : 'IDE MT');
             document.getElementById('titleIde').innerText = `Evolução: ${label}`;
 
-            // Extrair valores usando a função getIdeValue
-            const data = rows.map(r => getIdeValue(r));
-
-            const ctx = document.getElementById('chartIde').getContext('2d');
-
-            // Gradiente para preenchimento da área
-            const gradient = ctx.createLinearGradient(0, 0, 0, 400);
-            gradient.addColorStop(0, 'rgba(79, 70, 229, 0.4)');
-            gradient.addColorStop(1, 'rgba(79, 70, 229, 0.02)');
-
-            chartI = new Chart(ctx, {
+            chartI = new Chart(document.getElementById('chartIde'), {
                 type: 'line',
                 data: {
                     labels: rows.map(r => r.EDICAO),
                     datasets: [{
                         label: label,
-                        data: data,
-                        borderColor: '#4f46e5',
-                        backgroundColor: gradient,
-                        borderWidth: 4,
-                        pointRadius: 8,
-                        pointBackgroundColor: '#4f46e5',
-                        pointBorderColor: '#ffffff',
-                        pointBorderWidth: 2,
+                        data: rows.map(r => parse(r.IDE_ALFA) || parse(r.IDE_LP) || parse(r.IDE_MT) || parse(r
+                        .IDE) || 0),
+                        borderColor: '#10b981',
                         tension: 0.3,
-                        fill: true,
+                        fill: false,
+                        pointRadius: 7,
+                        pointBackgroundColor: '#10b981'
                     }]
                 },
                 options: {
                     maintainAspectRatio: false,
                     plugins: {
-                        legend: {
-                            display: false // oculta a legenda para ficar mais limpo
-                        },
                         datalabels: {
                             anchor: 'end',
                             align: 'top',
                             font: { weight: '800', size: 14 },
-                            color: '#4f46e5',
-                            formatter: v => v.toFixed(1) // 1 casa decimal
+                            formatter: v => v.toFixed(2)
                         }
                     },
                     scales: {
-                        y: {
-                            display: false,
-                            beginAtZero: true
-                        },
-                        x: {
-                            grid: { display: false },
-                            ticks: { font: { weight: 'bold' } }
-                        }
-                    },
-                    elements: {
-                        line: {
-                            borderJoinStyle: 'round'
-                        }
+                        y: { display: false },
+                        x: { grid: { display: false } }
                     }
                 }
             });
         }
 
-        // ---------- Desempenho em Rede (Comparativo) ----------
+        // ========== Comparativo em Rede ==========
         function renderComparacao(rowsEscola, etapa, comp) {
             const cont = document.getElementById('gridComparativo');
             cont.innerHTML = '<h5 class="fw-bold mb-4">Resultados em Rede</h5>';
@@ -820,7 +707,7 @@
             });
         }
 
-        // ---------- Níveis de Aprendizagem ----------
+        // ========== Níveis de Aprendizagem ==========
         function renderNiveis(rows, etapa) {
             const cont = document.getElementById('gridNiveis');
             cont.innerHTML = '';
@@ -831,7 +718,7 @@
                 let labels, valores, cores, soma;
 
                 if (isA) {
-                    // 2º ano: 4 níveis (Abaixo do Básico, Básico, Proficiente, Avançado)
+                    // NOVOS NÍVEIS PARA 2º ANO (4 níveis)
                     labels = ['Abaixo do Básico', 'Básico', 'Proficiente', 'Avançado'];
                     valores = [
                         parse(row.ABAIXO_DO_BASICO),
@@ -842,7 +729,7 @@
                     cores = ['#ef4444', '#facc15', '#4ade80', '#166534'];
                     soma = Math.round(valores[2] + valores[3]); // Proficiente + Avançado
                 } else {
-                    // 5º e 9º anos: 4 níveis originais
+                    // 5º e 9º anos (4 níveis originais)
                     labels = ['M. Crítico', 'Crítico', 'Interm.', 'Adequado'];
                     valores = [
                         parse(row.MUITO_CRITICO),
@@ -873,7 +760,6 @@
                     </div>
                 `;
 
-                // Inicializar o gráfico após renderizar o canvas
                 setTimeout(() => {
                     new Chart(document.getElementById(id), {
                         type: 'bar',
@@ -911,7 +797,7 @@
             });
         }
 
-        // ---------- Série Histórica ----------
+        // ========== Série Histórica ==========
         function renderHistorico(rows) {
             const cont = document.getElementById('gridHistorico');
             cont.innerHTML = '<h5 class="fw-bold mb-4">Evolução Histórica</h5>';
@@ -935,49 +821,29 @@
             }
         }
 
-        // ---------- Exportar PNG (gráfico individual) ----------
+        // ========== Exportar PNG ==========
         async function baixarPNG(id, nome) {
             const el = document.getElementById(id);
-            if (!el) return;
-            try {
-                const canvas = await html2canvas(el, {
-                    scale: 2,
-                    backgroundColor: '#ffffff',
-                    allowTaint: false,
-                    useCORS: true
-                });
-                const link = document.createElement('a');
-                link.download = `${nome}.png`;
-                link.href = canvas.toDataURL('image/png');
-                link.click();
-            } catch (e) {
-                console.error('Erro ao gerar PNG:', e);
-            }
+            const canvas = await html2canvas(el, { scale: 2, backgroundColor: '#ffffff' });
+            const link = document.createElement('a');
+            link.download = `${nome}.png`;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
         }
 
-        // ---------- Gerar PDF (relatório completo) ----------
+        // ========== Gerar PDF ==========
         async function gerarPDF() {
             const content = document.getElementById('content');
-            if (!content) return;
-            try {
-                const canvas = await html2canvas(content, {
-                    scale: 2,
-                    backgroundColor: '#ffffff',
-                    allowTaint: false,
-                    useCORS: true
-                });
-                const imgData = canvas.toDataURL('image/png');
-                const pdf = new jspdf.jsPDF('p', 'mm', 'a4');
-                const imgWidth = 190;
-                const imgHeight = (canvas.height * imgWidth) / canvas.width;
-                pdf.addImage(imgData, 'PNG', 10, 10, imgWidth, imgHeight);
-                pdf.save('Relatorio_SPAECE.pdf');
-            } catch (e) {
-                console.error('Erro ao gerar PDF:', e);
-            }
+            const canvas = await html2canvas(content, { scale: 2 });
+            const imgData = canvas.toDataURL('image/png');
+            const pdf = new jspdf.jsPDF('p', 'mm', 'a4');
+            const imgWidth = 190;
+            const imgHeight = (canvas.height * imgWidth) / canvas.width;
+            pdf.addImage(imgData, 'PNG', 10, 10, imgWidth, imgHeight);
+            pdf.save('Relatorio_SPAECE.pdf');
         }
 
-        // ---------- Redimensionar gráficos ao trocar de aba ----------
+        // ========== Redimensionar gráficos ao trocar de aba ==========
         document.querySelectorAll('button[data-bs-toggle="pill"]').forEach(btn => {
             btn.addEventListener('shown.bs.tab', () => {
                 if (chartP) chartP.resize();
@@ -985,13 +851,10 @@
             });
         });
 
-        // ---------- Inicialização ----------
+        // ========== Inicialização ==========
         window.onload = load;
     </script>
 
-    <!-- Bootstrap JS (para abas e outros componentes) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
-    </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
